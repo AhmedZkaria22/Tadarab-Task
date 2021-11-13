@@ -1,0 +1,571 @@
+.css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{ left: auto; right: 8rem; }
+
+header{
+    padding: 1.0rem 1.2rem;
+    display: flex;      justify-content: space-between;     align-items: center;
+    flex-wrap: wrap;
+    &>img{
+        width: 93px;
+        height: 31px;
+        object-fit: fill;
+    }
+    &>div{
+        &:last-of-type{
+            border: 2px solid;
+            display: flex;  text-align: center;   padding-inline: 0.5rem;
+            &>div{ border: none; display: flex;  text-align: center; }
+            svg{ margin-left: 0.5rem; }
+            input{
+                padding-block: 0.5rem;  
+                width: 28vw;             
+                border-radius: 12px;
+            }
+        }
+    }
+    &>a{        
+        &:nth-of-type(n+3){ border-radius: 10px;}
+        &:nth-of-type(4){ border: 1px solid ;}
+    }
+    &>span{
+        position: relative;
+        img{
+            width: 20px;
+            height: 20px;
+            object-fit: fill;
+        }
+        span{
+            transform: scale(0.8);
+            position: absolute;
+            top: -8px;
+            right: -8px;
+        }
+    }   
+}
+#headerPhone{ display: none; }
+
+.sectionBtn{
+    background-color: transparent;
+    border: none;
+}
+
+.sectionBtnSvgWrapper{
+    display: flex;
+    align-items: center;
+    svg{
+        font-size: 1.2em;
+        color: inherit;
+    }
+}
+.chipTags{
+    padding: 0;
+    width: fit-content;     height: fit-content;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    span{
+        background-color: inherit;      color: inherit;
+        padding: 0.25rem 0.75rem;
+    }
+}
+
+
+#DoraWrapper{
+    margin: 5rem 7.5% 0rem;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-template-areas: 'DrCont .';
+    column-gap: 5%;
+    position: relative;
+    @media screen and (max-width: 992px) {
+        margin: 5rem 4% 0rem!important;
+        width: 92%!important;
+        display: block!important;  
+    }
+}
+
+#BuyCard{
+    position: fixed;
+    top: 1rem;
+    left: 4rem;
+    width: 30%;
+    padding: 2% 1.8%;
+    border-radius: 20px;
+    height: fit-content;
+    transform: scale3d(0.85, 0.73, 1);
+    &>*{ width: 100%; margin-inline: 0;}
+    &>p{
+        &:nth-of-type(3){
+            padding: 1rem 0.8rem;   border-radius: 12px;    text-align: center;
+            margin-bottom: 0.75rem;
+        }
+        &:nth-of-type(4){
+            span{ margin-left: 0.5rem; }
+        }
+    }
+    &>span{
+        display: flex;  align-items: flex-end;
+        &>span{
+            &:first-of-type{ 
+                position: relative;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    width: 100%;
+                    height: 1px;
+                }
+            }
+            &:last-of-type{ margin-right: 0.25rem; }
+        }
+    }
+    &>div{  margin-bottom: 0.75rem;
+        &:nth-of-type(1){  margin-top: 0.75rem;
+            button{
+                border-radius: 12px;     border: none;    padding: 0.6rem 1.1rem;
+                &:first-of-type{ svg{ margin-left: 0.5rem; } }
+            }
+        }
+        &:nth-of-type(2){            
+            p{ 
+                display: flex;
+                align-items: center;
+                margin-bottom: 0.35rem;
+                svg{ margin-left: 0.5rem; }
+            }
+        }
+    }
+    &>.DoraSatisfy{
+        display: grid;
+        grid-template-areas: 'SatfSvg SatfHd' 'SatfSvg SatfPg';
+        grid-template-columns: 2rem auto;
+        align-items: center;
+        justify-items: right;
+        border-radius: 12px;
+        padding: 0.75rem 0.5rem;
+        svg{
+            grid-area: SatfSvg;
+        }
+        h4{
+            grid-area: SatfHd;
+        }
+        p{
+            grid-area: SatfPg;
+        }
+    }
+
+}
+
+#GradusProjects{
+    margin: 2rem 8% 3.5rem;
+    h3{        
+        span{
+            display: block;   clear: both;
+        }
+    }
+    &>p{ padding-left: 13%;  margin-bottom: 3rem; }
+    &>div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1.5rem 1.0rem;
+        .GradusProjectsItem{
+            border-radius: 20px;
+            overflow: hidden;
+            img{
+                height: calc(25vh + 10vw);
+                width: 100%;                         
+                object-fit: fill;
+            }
+            &>div{
+                display: grid;
+                grid-template-areas: 'gdrImg gdrDv';
+                grid-template-columns: 50px auto;
+                align-items: center;
+                margin: 1.0rem 1.2rem;
+                img{
+                    grid-area: gdrImg;
+                    width: 40px;       height: 40px;
+                    border-radius: 50%;    object-fit: fill;
+                }
+                &>div{
+                    grid-area: gdrDv;
+                    display: flex;
+                    flex-direction: column;
+                    p{
+                        .chipTags{
+                            margin-right: 0.7rem;
+                        }
+                    }        
+                }
+            }
+        }
+    }
+}
+
+#DoraOverRating{
+    margin-right: calc(8% - 2rem);
+    margin-bottom: 3.5rem;
+    h5{ direction: rtl!important; } 
+    .DoraOverRatingDesc{
+        display: flex;
+        align-items: center;
+        p{
+            grid-area: ovrPg;
+            direction: rtl!important;
+            margin-left: 1rem;
+        }
+        &>div{
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            direction: rtl!important;   *{ direction: rtl!important; }
+        }
+    }
+    .DoraOverRatingCarousel{
+        .slick-next, .slick-prev{
+            opacity: 1;                 
+            right: auto!important;
+            border-radius: 50%!important;
+            &::before{
+                content: "";
+                background-image: url('../public/Icons/arrow1.svg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;    
+                max-height: 30px!important;
+                max-width: 30px!important;
+                padding: 0.35rem;
+                font-size: 0px;
+            }
+        }
+        .slick-next{ transform: rotateY(180deg); }
+        @media screen and (min-width: 560px){
+            .slick-next, .slick-prev{
+                background-color: white!important;
+                box-shadow: 0px 0px 20px #00000033!important;  
+                width: 40px!important;
+                height: 40px!important;      
+            }
+            .slick-prev{ left: 3rem!important; top: -24%!important; }
+            .slick-next{ left: 6.3rem!important; top: -31%!important; }            
+        }
+        .slick-list{
+            transform: translate3d(20px, 0px, 0px);
+            .slick-track{
+                .slick-slide{
+                    transform: translate3d(27vw, 0px, 0px);
+                    @media (max-width: 576px){ transform: translate3d(79vw, 0px, 0px)!important; }
+                    @media (max-width: 992px) and (min-width: 576px){ transform: translate3d(42vw, 0px, 0px)!important; }
+                    &>div{
+                    .DoraOverRatingItem{
+                        display: grid;
+                        grid-template-areas: 'rtgImg rtgDv';
+                        grid-template-columns: 50px auto;
+                        border-radius: 20px;
+                        padding: 1.5rem;
+                        margin: 20px 40px;
+                        margin-right: 0px;                        
+                        direction: rtl!important;   *{ direction: rtl!important; }
+                        img{
+                            grid-area: rtgImg;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;    object-fit: fill;
+                        }
+                        &>div{
+                            grid-area: rtgDv;
+                            &>div{
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }            
+                    }
+                }
+            }
+        }
+    }
+}
+
+#DoraRecomand{
+    margin-right: 8%;
+    margin-bottom: 4.5rem;
+    position: relative;
+    h3{
+        direction: rtl!important;
+        span{ clear: both;  display: block; }
+    }
+    &>a{
+        padding: 0.5rem 1.5rem;
+        border-radius: 25px;
+        position: absolute;
+        top: 0;
+        left: 10rem;
+    }
+    .DoraRecomandCarousel{
+        .slick-next, .slick-prev{
+            opacity: 1;     
+            right: auto!important;
+            border-radius: 50%!important;
+            &::before{
+                content: "";
+                background-image: url('../public/Icons/arrow1.svg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;    
+                max-height: 30px!important;
+                max-width: 30px!important;
+                padding: 0.35rem;
+                font-size: 0px;
+            }
+        }
+        .slick-next{ transform: rotateY(180deg); }
+        @media screen and (min-width: 560px){
+            .slick-next, .slick-prev{
+                background-color: white!important;
+                box-shadow: 0px 0px 20px #00000033!important;  
+                width: 40px!important;
+                height: 40px!important;      
+            }
+            .slick-prev{ left: 3rem!important; top: -24%!important; }
+            .slick-next{ left: 6.3rem!important; top: -31%!important; }            
+        }
+        .slick-list{
+            transform: translate3d(20px, 0px, 0px);            
+            .slick-track{
+                .slick-slide{
+                    transform: translate3d(-20px, 0px, 0px);
+                    @media (max-width: 576px){ transform: translate3d(-2vw, 0px, 0px)!important; }                    
+                    @media (max-width: 768px) and (min-width: 576px){ transform: translate3d(-2vw, 0px, 0px)!important; }
+                    @media (max-width: 1024px) and (min-width: 768px){ transform: translate3d(-2vw, 0px, 0px)!important; }
+                    &>div{
+                        .DoraRecomandItem{
+                            margin: 1rem 20px;
+                            margin-right: 0px;
+                            border-radius: 12px;    
+                            overflow: hidden;
+                            direction: rtl!important;   *{ direction: rtl!important; }
+                            hr{ margin-inline: 1rem; }
+                            &>div{
+                                &:first-of-type{
+                                    background: {
+                                        repeat: no-repeat;
+                                        size: 100% 100%;
+                                        position: center;
+                                    };
+                                    height: 29.5vh;
+                                    position: relative;
+                                    .chipTags{
+                                        position: absolute;
+                                        top: 1rem;      right: 1rem;
+                                    }
+                                }
+                                &:nth-of-type(2){
+                                    display: grid;
+                                    grid-template-areas: 'rcdImg rcdPg' 'rcdImg rcdSp';
+                                    grid-template-columns: 50px auto;
+                                    padding: 1rem;
+                                    img{
+                                        grid-area: rcdImg;         
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;    object-fit: fill;
+                                    }
+
+                                    p{
+                                        grid-area: rcdPg;
+                                    }
+                                    span{
+                                        grid-area: rcdSp;
+                                    }
+                                }
+                                &:last-of-type{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    padding: 1rem;            
+                                    &>div{
+                                        &:first-of-type{
+                                            p{
+                                                display: flex;  align-items: center;
+                                                &:nth-of-type(2){
+                                                    position: relative;
+                                                    &::after{
+                                                        content: "";
+                                                        position: absolute;
+                                                        top: 50%;
+                                                        right: 0;
+                                                        width: calc(2.25rem + 3vw);
+                                                        height: 1px;
+                                                    }
+                                                }    
+                                                span{ margin-left: 0.25rem; }
+                                            }                        
+                                        }
+                                        &:last-of-type{
+                                            svg{ border-radius: 12px; 
+                                                &:first-of-type{ margin-left: 0.5rem; }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#Comments{
+    margin: 2rem 8% 10rem;
+    &>form{
+        position: relative;
+        height: 30vh;
+        width: 100%;
+        &>*{ &:focus{ outline: none;  border: none;  box-shadow: none; } }
+        textarea{
+            position: absolute;
+            top: 0;     right: 0;
+            height: 100%;   width: 100%;
+            border-radius: 0.5rem;
+            border: none;
+            padding: 1rem 1.5rem;
+        }
+        button{
+            position: absolute;
+            bottom: 0.5rem;     right: 0.5rem;            
+            display: flex;   align-items: center;       justify-content: space-evenly;
+            border: none;       padding: 0.35rem;    border-radius: 10px;
+            svg{ transform: rotateY(180deg);  margin-right: 0.5rem; }
+        }
+    }
+    &>div{
+        .CommentsItem{
+            display: grid;
+            grid-template-areas: 'cmtImg cmtDv';
+            grid-template-columns: 50px auto;
+            margin-block: 3rem;
+            &>img{
+                grid-area: cmtImg;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;    object-fit: fill;
+            }
+            &>div{
+                grid-area: cmtDv;
+                p{
+                    &:first-of-type{
+                        display: flex;
+                        align-items: center;    
+                        .chipTags{ margin-right: 1rem; }
+                    }
+                    &:nth-of-type(2){ clear: both;  margin-bottom: 0.5rem; }
+                }
+                &>div{
+                    &:first-of-type{
+                        display: flex;
+                        align-items: center;
+                    }
+                    &:last-of-type{
+                        display: flex;
+                        align-items: center;
+                        img{ height: 15px; object-fit: fill;  margin-left: 0.2rem; }
+                        p{
+                            display: flex;
+                            align-items: end;     
+                            img{ width: 18px; }
+                            margin-left: 0.75rem;
+                        } 
+                        form{
+                            display: inline-flex;   align-items: end;  flex-direction: row;
+                            svg{ margin-left: 0.5rem; }
+                            img{ width: 15px; }
+                            button{ border: none;   background-color: transparent; }
+                        }            
+                    }
+                }      
+            }
+        }   
+        &.nestedComments{
+            position: relative;
+            &::before{
+                position: absolute;     top: 45px;      right: 15px;
+                content: "";
+                width: 2px;  height: 85%;
+            }
+            .primaryCom{
+                position: relative;
+                &::after{
+                    position: absolute;     bottom: -1.5rem;
+                    right: 50px;
+                    content: "";
+                    width: 94%;  height: 2px;
+                }                            
+            }
+            .secondaryCom{
+                margin-right: 3rem;
+                position: relative;
+                &::before{
+                    position: absolute;     top: 20px;      right: -33px;
+                    content: "";
+                    width: 20px;  height: 2px;
+                }
+                &::after{
+                    position: absolute;         bottom: -1.5rem;
+                    right: 0px;
+                    content: "";
+                    width: 100%;  height: 2px;
+                }        
+                &:last-of-type{
+                    &::after{
+                        position: absolute;
+                        content: "";
+                        width: 2px;
+                        height: 80%;
+                        right: -33px;
+                        top: 21px;
+                    }
+                }
+                &>div>div:last-of-type{ form{ display: none; } }
+            }
+        }     
+    }
+
+} 
+
+#contact{
+    margin: 0rem 8% 5rem;
+    display: grid;
+    grid-template-areas: 'cntDv cntPg' 'cntDv cntSp' 'cntDv cntA';
+    grid-template-columns: calc(6rem + 3vw) auto;
+    column-gap: 8%;
+    align-items: start;
+    padding: 1.75rem 2.35rem;
+    div{
+        padding: calc(1.2rem + 0.3vw) calc(2.2rem + 0.5vw);
+        position: relative;
+        grid-area: cntDv;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+        &::before{
+            content: "";
+            position: absolute;     top: 0.7rem;   right: 0.7rem;   width: 7px;   height: 7px;
+        }
+        span{ display: block; }
+    }
+    p{ grid-area: cntPg; margin-bottom: 0.5rem; }
+    &>span{ grid-area: cntSp; margin-bottom: 0.5rem; }
+    a{ 
+        width: fit-content;
+        padding: 0.2rem 0.8rem;
+        border-radius: 10px;  border: 1px solid; 
+        display: flex;    align-items: center;
+        grid-area: cntA; 
+        svg{ color: inherit;  margin-right: 0.5rem; }
+    }
+}

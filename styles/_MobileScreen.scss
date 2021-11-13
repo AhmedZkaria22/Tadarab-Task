@@ -1,0 +1,288 @@
+@media screen and (max-width: 560px) {
+    .Home_container__1EcsU { padding: 0 1rem!important; }
+
+    .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+        right: 0rem!important;
+        top: 17rem!important;
+        width: 100%!important;
+        min-width: 100%!important;    
+        ul.css-6hp17o-MuiList-root-MuiMenu-list{
+            background-color: #af151fc2!important;
+            display: flex!important;
+            flex-wrap: wrap!important;
+            li {
+                font: normal normal bold calc(0.7rem + 0.2vw)/calc(0.6rem + 0.2vw) Almarai!important;
+                min-height: 2rem!important;
+                margin-right: 1rem!important;
+                color: white!important;
+            }
+        }
+    }
+    header > *:not(#headerPhone) {  display: none!important; }
+    #headerPhone{
+        width: 100%;
+        display: block!important;        
+        .hdsmtop{
+            display: grid!important;
+            grid-template-columns: 3rem auto 3rem!important;
+            justify-items: center;
+            padding: 0.75rem 1.0rem;
+            &>svg{ font-size: 1.5rem; color: #333; }
+            &>span{
+                position: relative;
+                img{
+                    width: 20px;
+                    height: 20px;
+                    object-fit: fill;
+                }
+                span{
+                    transform: scale(0.8);
+                    position: absolute;
+                    top: -8px;
+                    right: -8px;
+                }
+            }
+        }
+        #phoneMenuIconClose{ display: none; }
+        #phoneMenuIconClose, #phoneMenuIcon{ cursor: pointer; }
+        &>div:nth-of-type(2){ 
+            width: calc(100% - 2rem)!important; 
+            margin-inline: 1rem;
+            border: 2px solid #777;
+            display: flex;  text-align: center;   padding-inline: 0.5rem;
+            border-radius: 12px;
+            &>div{ border: none; display: flex;  text-align: center; 
+                svg{ margin-top: 0.25rem; }
+            }
+            svg{ margin-left: 0.5rem; color: #222; }
+            input{
+                padding-block: 0.5rem;  
+                width: 28vw;             
+                border-radius: 12px;
+                color: #777;
+                font: normal normal bold calc(0.6rem + 0.15vw)/calc(0.5rem + 0.2vw) Almarai;
+            }
+
+        }
+
+        #phoneMenu{
+            position: fixed;
+            top: 6rem;
+            right: 0;
+            width: 100%;
+            height: fit-content;
+            padding: 1rem;
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: #af151fc2;
+            border-radius: 0;
+            a, button{
+                background-color: transparent!important;
+                color: #fff!important;
+                padding: 0.5rem 1rem!important; 
+                font: normal normal 800 calc(0.75rem + 0.3vw)/calc(0.9rem + 0.35vw) Almarai!important;               
+            }
+            svg{ 
+                color: #fff!important;      
+                font-size: 1.5em !important;
+                margin-right: 0.5rem!important; 
+            }
+        }
+    }
+
+    #DoraWrapper {
+        margin: 5rem 4% 0rem !important;
+        width: 92% !important;
+        display: block !important;
+        
+        #DoraContainer{
+            margin-bottom: 2rem!important;
+
+            #DoraKeyWords{
+                &>div{
+                    flex-wrap: wrap;
+                    .chipTags{
+                        margin-bottom: 0.5rem;
+                    }
+                }
+            }
+
+            .DoraContentAccordionDetails{
+                flex-direction: column;
+                align-items: center;
+                &>div{
+                    width: 100%;                
+                    &:last-of-type{
+                        flex-direction: row-reverse;
+                        justify-content: flex-end!important;
+                        margin-top: 0.5rem!important;
+                    }
+                    img,svg{  
+                        margin-right: 0rem!important;
+                        margin-left: 0.5rem!important;
+                    }
+                    img{
+                        width: 20px!important;
+                        height: 20px!important;
+                    }
+                }
+            }
+    
+            &>.DoraSatisfy{
+                padding: 0.75rem 0.5rem!important;
+                grid-template-columns: 2.5rem auto!important;
+            }
+
+            #DoraOffer{
+                .DoraOfferContainer{
+                    .DoraOfferItem{
+                        grid-template-rows: repeat(2, 1fr)!important;
+                        grid-template-columns: 100%!important;                
+                    }
+                    &>div{
+                        grid-template-rows: repeat(2, 1fr)!important;
+                        grid-template-columns: 100%!important;
+                        row-gap: 1rem!important;              
+                        &>div:first-of-type{
+                            &>p{ text-align: center!important; }
+                            &>span{ justify-content: center!important; 
+                                &::after{ right: 17.5%!important;  width: 65%!important; }
+                            }
+                        }
+                    }
+                }
+            }         
+        }    
+
+        #BuyCard{
+            position: static !important;
+            inset: auto !important;
+            transform-origin: center center !important;
+            transform: scale3d(1, 1, 1) !important;
+            width: 90%!important;
+            margin: 0rem auto 7rem;    
+            padding: 1rem 2rem!important;
+    
+            &>.DoraSatisfy{
+                h4{
+                    font: normal normal bold calc(0.7rem + 0.18vw)/calc(1rem + 0.4vw) Almarai!important;
+                }
+                p{
+                    font: normal normal 300 calc(0.6rem + 0.18vw)/calc(0.8rem + 0.4vw) Almarai!important;
+                }
+            }
+            &>p{
+                &:nth-of-type(3){
+                    font: normal normal normal calc(0.7rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai!important;
+                }
+                &:nth-of-type(4){
+                    padding-right: 0.75rem!important;
+                    font: normal normal normal calc(0.75rem + 0.3vw)/calc(1.1rem + 0.4vw) Almarai!important;
+                }
+            }
+            &>div{
+                &:nth-of-type(1){
+                    flex-wrap: wrap;
+                    button{
+                        padding: 0.5rem 1.5rem!important;
+                    }
+                }
+                &:nth-of-type(2){
+                    padding-right: 0.75rem!important;
+                    p{ 
+                        font: normal normal 600 calc(0.7rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai!important;
+                    }
+                }
+            }
+        
+        }    
+    }
+
+    #GradusProjects{
+        &>div{
+            grid-template-rows: repeat(4, 1fr)!important;
+            grid-template-columns: 100%!important;                  
+        }
+    }
+
+    #DoraOverRating{
+        .DoraOverRatingCarousel{
+            .slick-next, .slick-prev{
+                background-color: #AF151F!important;
+                box-shadow: none!important;    
+                width: 20px!important;
+                height: 20px!important;    
+                z-index: 9;
+                &::before{ padding: 0.25rem!important; }
+            }
+            .slick-prev{ top: 18%!important; left: 2.0rem!important; }
+            .slick-next{ top: 15%​!important; left: 5.0rem!important; }
+        }
+    }
+
+    #DoraRecomand{
+        h3{ margin-bottom: 3rem!important; }
+        &>a{ left: auto!important;  right: 0rem!important;  top: 4rem!important; }
+
+        .DoraRecomandCarousel{
+        .slick-next, .slick-prev{
+            background-color: #AF151F!important;
+            box-shadow: none!important;    
+            width: 20px!important;
+            height: 20px!important;    
+            z-index: 9;
+            &::before{ padding: 0.25rem!important; }
+        }
+        .slick-prev{ top: 18%!important; left: 2.5rem!important; }
+        .slick-next{ top: 15%​!important; left: 5.5rem!important; }
+        }
+
+    }
+
+    #contact{
+        grid-template-areas: "cntDv" "cntPg" "cntSp" "cntA"!important;
+        grid-template-columns: 100%!important;
+        grid-template-rows: none!important;
+        align-items: center!important;
+        border-radius: 1rem 1rem 0rem 0rem!important;
+        &>div{
+            width: 100%!important;
+            margin-bottom: 1.5rem!important;
+            border-radius: 1rem 1rem 0rem 0rem!important;
+        }
+        &>*:not(div){ text-align: center!important; }
+        &>a{ 
+            margin: auto!important; padding: 0.5rem 0.8rem!important;  
+            width: 100%!important;  justify-content: center!important; 
+            font: normal normal bold calc(0.7rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai!important;
+        }
+    }
+
+    #Comments{
+        margin: 2rem 4% 10rem!important;
+
+        *::before, *::after{ background-color: #70707080!important; }
+        *::after{ height: 1.5px!important; }
+        .nestedComments{
+            &::before{ width: 1.5px!important; }
+            .secondaryCom{
+                &::before{
+                    right: -36px !important;
+                    width: 8px !important;
+                    height: 8px !important;
+                    border-radius: 50%!important;        
+                    background-color: #707070ea!important;        
+                }
+                &::after { width: calc(100% - 40px)!important;  right: 40px!important; }
+                &:last-of-type::after {
+                    top: 28px!important;
+                    background-color: white!important; 
+                    width: 1.5px!important;       
+                    height: 80%!important;
+                    right: -33px!important;
+                }
+            }
+        }
+    }
+}

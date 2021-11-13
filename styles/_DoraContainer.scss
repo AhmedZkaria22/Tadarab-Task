@@ -1,0 +1,419 @@
+
+.beforShadow{
+    content: "";    position: absolute;     bottom: 100%;      right: 0;   width: 100%;
+    background: transparent linear-gradient(180deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+}
+
+#DoraContainer{
+    grid-area: DrCont;    
+    margin-bottom: 12rem;
+    #DoraWhatLearn, #DoraDetails, #DoraKeyWords, #DoraLevel{ margin-bottom: 2.5rem; }
+    #DoraContent, #DoraInstructor, &>.DoraSatisfy{ margin-bottom: 3.5rem; }
+    
+    #breadcrumb{ margin-bottom: 1rem; }
+
+    #videoWrapper{
+        width: 100%;
+        background: {
+            image: url('../public/Images/backImg.jpg');
+            repeat: no-repeat;
+            size: 100% 100%;
+            position: center;
+        };
+        border-radius: 1rem;    overflow: hidden;
+        margin-bottom: 1.75rem;
+        &>*{ width: inherit;   height: calc(36vh + 16vw); border-radius: 1rem; } 
+        &>div{            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            svg{ clear: both;    font-size: 4rem;   cursor: pointer; }
+        }
+        .videoElm{ display: none; }
+    }
+
+    #DoraWhatLearn{
+        border: 1px solid;
+        border-radius: 20px;
+        overflow: hidden;
+        p{
+            display: flex;
+            align-items: center;
+            img{ width: calc(0.6rem + 0.3vw);  margin-left: 0.5rem; }
+        }
+        &>div>div:nth-of-type(2){
+            position: relative;
+            &::before{ @extend .beforShadow; height: 75px; }
+            button{
+                img{ width: calc(0.35rem + 0.15vw);  margin-top: 4px;  margin-right: 5px; }    
+            }
+        }        
+    }
+
+    #DoraDetails{
+        p{            
+            height: 10rem;
+            overflow: hidden;
+            padding-bottom: 0px!important;
+        }
+        &>div>div:nth-of-type(2){
+            position: relative;
+            &::before{ @extend .beforShadow; height: 95px; }
+            button{}
+        }
+    }
+
+    #DoraKeyWords{
+        margin-top: 2.5rem;
+        &>div{
+            flex-direction: row;
+            .chipTags{ margin-left: 0.5rem; }
+        }
+    }
+
+    #DoraLevel{
+        border: 0.1rem solid;
+        border-radius: 20px;
+        padding: 0.5rem;        
+        div{
+            padding: 0.5rem;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.2rem;
+            svg{
+                margin-left: 0.5rem;
+                font-size: 1.8rem;
+            }
+        }
+        h4{ padding-right: 0.75rem; }
+        ul{
+            padding-right: 1.4rem;
+        }
+    }
+
+
+    #DoraContent{
+        &>div{
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.25rem;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-left: 0.5rem;
+                &:last-of-type{ margin-right: 0.5rem; }
+            }
+        }
+
+        .DoraContentAccordion{
+            margin-bottom: 1rem;
+            .DoraContentAccordionSummary{
+                border-radius: 12px 12px 0px 0px;
+                &[aria-expanded="false"]{ border-radius: 12px; }
+                &>div{
+                    display: flex;
+                    &:first-of-type{ flex-direction: column; }
+                    &:last-of-type{ justify-content: center; }
+                }
+                svg{
+                    &[data-testid="MinimizeRoundedIcon"]{ margin-top: -1.0rem; }
+                    &[data-testid='AddRoundedIcon']{ margin-top: 0rem; }
+                }
+            }
+            .DoraContentAccordionDetails{
+                display: flex;
+                justify-content: space-between;
+                padding-block: 0.5rem;
+                border-radius: 0px 0px 12px 12px;
+                div{ display: flex; align-items: center;}
+                &>div{                    
+                    &:first-of-type{
+                        img{ width: 25px; height: 25px; margin-left: 0.5rem; }
+                        &>div{
+                            flex-direction: column;
+                            align-items: flex-start;
+                        }
+                    }
+                    &:last-of-type{
+                        svg{    
+                            margin-right: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #DoraInstructor{
+        div{
+            display: grid;
+            grid-template-areas: 'instImg instName' 'instImg instTitle' 'instImg instSp';
+            grid-template-columns: 75px auto;
+            align-items: center;
+            justify-items: start;
+            margin-bottom: 0.75rem;
+            img{
+                grid-area: instImg;
+                width: 65px;    
+                height: 65px;
+                border-radius: 50%;    object-fit: fill;
+            }
+            h6{
+                grid-area: instName;
+            }
+            p{
+                grid-area: instTitle;
+            }
+            span{
+                grid-area: instSp;
+                display: flex;
+                align-items: center;
+                svg{margin-left: 5px;}                            
+            }
+        }
+        p{
+
+        }
+        a{
+            svg{ margin-top: 0.2em; }
+        }
+    }
+
+    &>.DoraSatisfy{
+        display: grid;
+        grid-template-areas: 'SatfSvg SatfHd' 'SatfSvg SatfPg';
+        grid-template-columns: 3.5rem auto;
+        align-items: center;
+        justify-items: right;
+        border-radius: 1rem;
+        padding: 1rem 1.5rem;
+        svg{
+            grid-area: SatfSvg;
+            font-size: 2.4rem;
+        }
+        h4{
+            grid-area: SatfHd;
+        }
+        p{
+            grid-area: SatfPg;
+        }
+    }
+
+    #DoraCert{  margin-bottom: 4.5rem;
+        &>p{    margin-bottom: 1.5rem;
+            span{ clear: both;  display: block; }
+        } 
+        &>div{
+            padding: 1.5rem 5%;    
+            border-radius: 20px;        
+            &>div{
+                border: 4px solid;
+                border-radius: 20px;
+                height: fit-content;
+                padding: 1.5rem 5%;            
+                &>img{
+                    display: block;     margin: 1rem auto;   width: 5rem;
+                }
+                p{
+                    text-align: center;   margin-bottom: 1.5rem;
+                }
+                &>div{ height: fit-content;
+                    span{ border-radius: 10px; display: block;  height: 12px; }
+                    &>span{  margin-bottom: 14px;
+                        &:nth-of-type(1){ width: 95%; }
+                        &:nth-of-type(2){ width: 85%; }
+                        &:nth-of-type(3){ width: 70%; margin-bottom: 0px!important;}
+                    }
+                    &>div{
+                        display: grid;
+                        grid-template-columns: auto 6rem;
+                        padding: 3rem 0rem 0rem;
+                        align-items: end;
+                        &>div{ height: fit-content;
+                            span{
+                                &:nth-of-type(1){ width: 20%; margin-bottom: 8px!important;}
+                                &:nth-of-type(2){ width: 35%; margin-bottom: 0px!important;}
+                            }
+                        }
+                        img{ width: 6rem;  object-fit: fill; }        
+                    }
+                }
+            }    
+        }
+    }
+
+    #DoraFaq{
+        margin-bottom: 5.0rem;
+        .DoraFaqAccordion{            
+            border-radius: 20px;
+            margin-bottom: 1.2rem;
+            .DoraFaqAccordionSummary{
+                flex-direction: row-reverse;
+                align-items: flex-end;
+                height: fit-content;
+                min-height: fit-content;
+                &[aria-expanded="false"]{ align-items: center!important; 
+                    .css-i4bv87-MuiSvgIcon-root{
+                        margin: 0px 0px 0px 10px;
+                    }
+                }    
+                .css-o4b71y-MuiAccordionSummary-content.Mui-expanded{
+                    margin: 20px 0px 0px;
+                }
+                .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+                    margin: 0px 0px 4px 10px;
+                    svg{ font-size: 1.4rem; }
+                }
+            }
+            .css-15v22id-MuiAccordionDetails-root{
+                padding-top: 0px!important;
+                p{ padding-right: 2rem; }
+            }
+        }
+        &>p{ span{ margin-left: 0.25rem; } }
+    }
+
+    #DoraOffer{ 
+        padding-bottom: 0.35rem;     
+        border-radius: 1rem;
+        h5{    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-block: 1.3rem;
+            img{ width: 30px;  height: 30px; margin-left: 1.0rem; }
+        }
+        .DoraOfferContainer{
+            padding: 1.5rem 0rem;
+            margin: 0rem 0.35rem;
+            border-radius: 1rem;
+            .DoraOfferItem{            
+                display: grid;
+                grid-template-columns: 42% 58%;
+                margin-inline: 4%;                
+                border-radius: 1rem;
+                overflow: hidden;
+                &>div{          
+                    &:first-of-type{
+                        background: {
+                            image: url('../public/Images/backImg.jpg');
+                            repeat: no-repeat;
+                            size: 100% 100%;
+                            position: center;
+                        };
+                        position: relative;
+                        .chipTags{
+                            position: absolute;
+                            top: 1rem;      right: 1rem;
+                        }
+                    }
+                    &:last-of-type{
+                        padding: 0.75rem 0.5rem;
+                        &>hr{ margin-block: 0.5rem; }
+                        &>div{
+                            &:first-of-type{
+                                display: grid;
+                                grid-template-areas: 'ofrImg ofrHd' 'ofrImg ofrPg';
+                                grid-template-columns: 50px auto;
+                                img{
+                                    grid-area: ofrImg;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 50%;    object-fit: fill;
+                                }
+                                span{ font-weight: 700; }
+                            }
+                            &:last-of-type{
+                                display: flex;
+                                align-items: center;
+                                &>span{
+                                    &:first-of-type{ margin-left: 0.25rem; }        
+                                }
+                            }
+                        }
+                        &>p,&>span{ display: flex;  align-items: center; }
+                        &>span{
+                            position: relative;
+                            &::after{
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                right: 0;
+                                width: calc(2.25rem + 3vw);
+                                height: 1px;
+                            }
+                        }        
+                    }
+                }
+            }    
+            svg.DoraOfferPlus{
+                display: block;
+                margin: 0.5rem auto;
+            }
+            &>div{
+                display: grid;
+                align-items: center;
+                grid-template-columns: repeat(2, 45%);
+                column-gap: 10%;
+                margin: 2rem 5% 0rem;
+                &>div{
+                    &:first-of-type{                        
+                        &>span{
+                            display: flex;
+                            &>span{ margin-inline: 0.25rem; }
+                            &:not(:first-of-type){ align-items: flex-end; }
+                            &:first-of-type{ 
+                                position: relative;     display: flex;      align-items: center;
+                                &::after{ content: "";
+                                    position: absolute;   top: 50%;     right: 0;
+                                    width: 83%;    height: 1px;                                    
+                                }
+                            }
+                        }
+                    }
+                    &:last-of-type{
+                        &>div{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            &>span{
+
+                            }
+                            div{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                p{
+                                    display: flex;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    margin-inline: 4px;
+                                    span{
+                                        display: block;
+                                        clear: both;
+                                    }
+                                }
+                            }
+                            button{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                border: none;
+                                border-radius: 12px;
+                                padding: 0.5rem;
+                                width: 100%;
+                                clear: both;
+                                margin-top: 0.5rem;
+                                svg{ margin-left: 1rem; }
+                            }    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

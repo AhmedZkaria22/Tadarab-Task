@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body{ padding-top: 3rem; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  direction: rtl;
+  margin: 0;
+  &:not(img, script){
+    font-family: 'Almarai', sans-serif;
+    text-decoration-color: #AF151F!important;
+    box-shadow: none!important;
+    border-radius: 0rem;
+  }
+
+
+  .DoraOverRatingCarousel{
+    direction: ltr!important;
+    *{  direction: ltr!important;  }
+  }
+
+  .DoraRecomandCarousel{
+    direction: ltr!important;
+    *{  direction: ltr!important;  }
+  }
+}
+
+@import 'MobileScreen';
+@import 'Typography';
+@import 'Navbar';
+@import 'General';
+@import 'DoraContainer';

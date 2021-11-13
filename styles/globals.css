@@ -1,0 +1,2791 @@
+@charset "UTF-8";
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-top: 3rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  direction: rtl;
+  margin: 0;
+}
+*:not(img, script) {
+  font-family: "Almarai", sans-serif;
+  -webkit-text-decoration-color: #AF151F !important;
+          text-decoration-color: #AF151F !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 0rem;
+}
+* .DoraOverRatingCarousel {
+  direction: ltr !important;
+}
+* .DoraOverRatingCarousel * {
+  direction: ltr !important;
+}
+* .DoraRecomandCarousel {
+  direction: ltr !important;
+}
+* .DoraRecomandCarousel * {
+  direction: ltr !important;
+}
+
+@media screen and (max-width: 560px) {
+  .Home_container__1EcsU {
+    padding: 0 1rem !important;
+  }
+
+  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    right: 0rem !important;
+    top: 17rem !important;
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul.css-6hp17o-MuiList-root-MuiMenu-list {
+    background-color: #af151fc2 !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul.css-6hp17o-MuiList-root-MuiMenu-list li {
+    font: normal normal bold calc(0.7rem + 0.2vw)/calc(0.6rem + 0.2vw) Almarai !important;
+    min-height: 2rem !important;
+    margin-right: 1rem !important;
+    color: white !important;
+  }
+
+  header > *:not(#headerPhone) {
+    display: none !important;
+  }
+
+  #headerPhone {
+    width: 100%;
+    display: block !important;
+  }
+  #headerPhone .hdsmtop {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 3rem auto 3rem !important;
+    grid-template-columns: 3rem auto 3rem !important;
+    justify-items: center;
+    padding: 0.75rem 1rem;
+  }
+  #headerPhone .hdsmtop > svg {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  #headerPhone .hdsmtop > span {
+    position: relative;
+  }
+  #headerPhone .hdsmtop > span img {
+    width: 20px;
+    height: 20px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  #headerPhone .hdsmtop > span span {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    position: absolute;
+    top: -8px;
+    right: -8px;
+  }
+  #headerPhone #phoneMenuIconClose {
+    display: none;
+  }
+  #headerPhone #phoneMenuIconClose, #headerPhone #phoneMenuIcon {
+    cursor: pointer;
+  }
+  #headerPhone > div:nth-of-type(2) {
+    width: calc(100% - 2rem) !important;
+    margin-inline: 1rem;
+    border: 2px solid #777;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    padding-inline: 0.5rem;
+    border-radius: 12px;
+  }
+  #headerPhone > div:nth-of-type(2) > div {
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  #headerPhone > div:nth-of-type(2) > div svg {
+    margin-top: 0.25rem;
+  }
+  #headerPhone > div:nth-of-type(2) svg {
+    margin-left: 0.5rem;
+    color: #222;
+  }
+  #headerPhone > div:nth-of-type(2) input {
+    padding-block: 0.5rem;
+    width: 28vw;
+    border-radius: 12px;
+    color: #777;
+    font: normal normal bold calc(0.6rem + 0.15vw)/calc(0.5rem + 0.2vw) Almarai;
+  }
+  #headerPhone #phoneMenu {
+    position: fixed;
+    top: 6rem;
+    right: 0;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1rem;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    background-color: #af151fc2;
+    border-radius: 0;
+  }
+  #headerPhone #phoneMenu a, #headerPhone #phoneMenu button {
+    background-color: transparent !important;
+    color: #fff !important;
+    padding: 0.5rem 1rem !important;
+    font: normal normal 800 calc(0.75rem + 0.3vw)/calc(0.9rem + 0.35vw) Almarai !important;
+  }
+  #headerPhone #phoneMenu svg {
+    color: #fff !important;
+    font-size: 1.5em !important;
+    margin-right: 0.5rem !important;
+  }
+
+  #DoraWrapper {
+    margin: 5rem 4% 0rem !important;
+    width: 92% !important;
+    display: block !important;
+  }
+  #DoraWrapper #DoraContainer {
+    margin-bottom: 2rem !important;
+  }
+  #DoraWrapper #DoraContainer #DoraKeyWords > div {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #DoraWrapper #DoraContainer #DoraKeyWords > div .chipTags {
+    margin-bottom: 0.5rem;
+  }
+  #DoraWrapper #DoraContainer .DoraContentAccordionDetails {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #DoraWrapper #DoraContainer .DoraContentAccordionDetails > div {
+    width: 100%;
+  }
+  #DoraWrapper #DoraContainer .DoraContentAccordionDetails > div:last-of-type {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    margin-top: 0.5rem !important;
+  }
+  #DoraWrapper #DoraContainer .DoraContentAccordionDetails > div img, #DoraWrapper #DoraContainer .DoraContentAccordionDetails > div svg {
+    margin-right: 0rem !important;
+    margin-left: 0.5rem !important;
+  }
+  #DoraWrapper #DoraContainer .DoraContentAccordionDetails > div img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  #DoraWrapper #DoraContainer > .DoraSatisfy {
+    padding: 0.75rem 0.5rem !important;
+    -ms-grid-columns: 2.5rem auto !important;
+    grid-template-columns: 2.5rem auto !important;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem {
+    -ms-grid-rows: (1fr)[2] !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    -ms-grid-columns: 100% !important;
+    grid-template-columns: 100% !important;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > *:nth-child(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer > div {
+    -ms-grid-rows: 1fr 1rem 1fr !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    -ms-grid-columns: 100% !important;
+    grid-template-columns: 100% !important;
+    row-gap: 1rem !important;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer > div > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer > div > *:nth-child(2) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > p {
+    text-align: center !important;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  #DoraWrapper #DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span::after {
+    right: 17.5% !important;
+    width: 65% !important;
+  }
+  #DoraWrapper #BuyCard {
+    position: static !important;
+    inset: auto !important;
+    -webkit-transform-origin: center center !important;
+            transform-origin: center center !important;
+    -webkit-transform: scale3d(1, 1, 1) !important;
+            transform: scale3d(1, 1, 1) !important;
+    width: 90% !important;
+    margin: 0rem auto 7rem;
+    padding: 1rem 2rem !important;
+  }
+  #DoraWrapper #BuyCard > .DoraSatisfy h4 {
+    font: normal normal bold calc(0.7rem + 0.18vw)/calc(1rem + 0.4vw) Almarai !important;
+  }
+  #DoraWrapper #BuyCard > .DoraSatisfy p {
+    font: normal normal 300 calc(0.6rem + 0.18vw)/calc(0.8rem + 0.4vw) Almarai !important;
+  }
+  #DoraWrapper #BuyCard > p:nth-of-type(3) {
+    font: normal normal normal calc(0.7rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai !important;
+  }
+  #DoraWrapper #BuyCard > p:nth-of-type(4) {
+    padding-right: 0.75rem !important;
+    font: normal normal normal calc(0.75rem + 0.3vw)/calc(1.1rem + 0.4vw) Almarai !important;
+  }
+  #DoraWrapper #BuyCard > div:nth-of-type(1) {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #DoraWrapper #BuyCard > div:nth-of-type(1) button {
+    padding: 0.5rem 1.5rem !important;
+  }
+  #DoraWrapper #BuyCard > div:nth-of-type(2) {
+    padding-right: 0.75rem !important;
+  }
+  #DoraWrapper #BuyCard > div:nth-of-type(2) p {
+    font: normal normal 600 calc(0.7rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai !important;
+  }
+
+  #GradusProjects > div {
+    -ms-grid-rows: (1fr)[4] !important;
+    grid-template-rows: repeat(4, 1fr) !important;
+    -ms-grid-columns: 100% !important;
+    grid-template-columns: 100% !important;
+  }
+
+  #GradusProjects > div > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  #GradusProjects > div > *:nth-child(2) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+
+  #GradusProjects > div > *:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  #GradusProjects > div > *:nth-child(4) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+
+  #DoraOverRating .DoraOverRatingCarousel .slick-next, #DoraOverRating .DoraOverRatingCarousel .slick-prev {
+    background-color: #AF151F !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    z-index: 9;
+  }
+  #DoraOverRating .DoraOverRatingCarousel .slick-next::before, #DoraOverRating .DoraOverRatingCarousel .slick-prev::before {
+    padding: 0.25rem !important;
+  }
+  #DoraOverRating .DoraOverRatingCarousel .slick-prev {
+    top: 18% !important;
+    left: 2rem !important;
+  }
+  #DoraOverRating .DoraOverRatingCarousel .slick-next {
+    top: 15% ​ !important;
+    left: 5rem !important;
+  }
+
+  #DoraRecomand h3 {
+    margin-bottom: 3rem !important;
+  }
+  #DoraRecomand > a {
+    left: auto !important;
+    right: 0rem !important;
+    top: 4rem !important;
+  }
+  #DoraRecomand .DoraRecomandCarousel .slick-next, #DoraRecomand .DoraRecomandCarousel .slick-prev {
+    background-color: #AF151F !important;
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    z-index: 9;
+  }
+  #DoraRecomand .DoraRecomandCarousel .slick-next::before, #DoraRecomand .DoraRecomandCarousel .slick-prev::before {
+    padding: 0.25rem !important;
+  }
+  #DoraRecomand .DoraRecomandCarousel .slick-prev {
+    top: 18% !important;
+    left: 2.5rem !important;
+  }
+  #DoraRecomand .DoraRecomandCarousel .slick-next {
+    top: 15% ​ !important;
+    left: 5.5rem !important;
+  }
+
+  #contact {
+        grid-template-areas: "cntDv" "cntPg" "cntSp" "cntA" !important;
+    -ms-grid-columns: 100% !important;
+    grid-template-columns: 100% !important;
+    -ms-grid-rows: none !important;
+    grid-template-rows: none !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    border-radius: 1rem 1rem 0rem 0rem !important;
+  }
+  #contact > div {
+    width: 100% !important;
+    margin-bottom: 1.5rem !important;
+    border-radius: 1rem 1rem 0rem 0rem !important;
+  }
+  #contact > *:not(div) {
+    text-align: center !important;
+  }
+  #contact > a {
+    margin: auto !important;
+    padding: 0.5rem 0.8rem !important;
+    width: 100% !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    font: normal normal bold calc(0.7rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai !important;
+  }
+
+  #Comments {
+    margin: 2rem 4% 10rem !important;
+  }
+  #Comments *::before, #Comments *::after {
+    background-color: #70707080 !important;
+  }
+  #Comments *::after {
+    height: 1.5px !important;
+  }
+  #Comments .nestedComments::before {
+    width: 1.5px !important;
+  }
+  #Comments .nestedComments .secondaryCom::before {
+    right: -36px !important;
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    background-color: #707070ea !important;
+  }
+  #Comments .nestedComments .secondaryCom::after {
+    width: calc(100% - 40px) !important;
+    right: 40px !important;
+  }
+  #Comments .nestedComments .secondaryCom:last-of-type::after {
+    top: 28px !important;
+    background-color: white !important;
+    width: 1.5px !important;
+    height: 80% !important;
+    right: -33px !important;
+  }
+}
+h3 {
+  color: #222222;
+  font: normal normal 800 calc(0.9rem + 0.4vw)/calc(1.75rem + 0.5vw) Almarai;
+  margin-bottom: 0.5rem;
+}
+
+h5 {
+  color: #222222;
+}
+
+h6 {
+  color: #222222;
+}
+
+p {
+  color: #707070;
+  font: normal normal normal calc(0.6rem + 0.3vw)/calc(1.5rem + 0.4vw) Almarai;
+}
+
+span {
+  color: #555555;
+}
+
+a {
+  color: #AF151F;
+}
+
+.sectionBtn {
+  color: #AF151F;
+  font: normal normal 800 calc(0.7rem + 0.3vw)/calc(1.4rem + 0.4vw) Almarai;
+}
+
+.chipTags span {
+  font: normal normal bold calc(0.45rem + 0.2vw)/calc(0.85rem + 0.3vw) Almarai;
+}
+
+.ratingSpan {
+  font-size: calc(0.8rem + 0.3vw) !important;
+}
+.ratingSpan > span {
+  font-size: inherit;
+}
+.ratingSpan > span > span {
+  font-size: inherit;
+}
+.ratingSpan.Rating5Star > span > span {
+  color: #FFA120 !important;
+}
+.ratingSpan.Rating4Star > span > span {
+  color: #FFA120 !important;
+}
+.ratingSpan.Rating4Star > span:last-of-type > span {
+  color: #CCCCCC !important;
+}
+.ratingSpan.Rating3Star > span > span {
+  color: #FFA120 !important;
+}
+.ratingSpan.Rating3Star > span:nth-last-of-type(1) > span {
+  color: #CCCCCC !important;
+}
+.ratingSpan.Rating3Star > span:nth-last-of-type(2) > span {
+  color: #CCCCCC !important;
+}
+
+.cardHd {
+  font: normal normal 800 calc(0.62rem + 0.3vw)/calc(1.25rem + 0.3vw) Almarai;
+  color: #222222;
+}
+
+.cardNm {
+  font: normal normal normal calc(0.52rem + 0.15vw)/calc(0.9rem + 0.3vw) Almarai;
+  color: #555555;
+}
+
+hr {
+  border-color: #0000001A;
+}
+
+.css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul li {
+  font: normal normal bold calc(0.65rem + 0.2vw)/calc(0.9rem + 0.35vw) Almarai;
+  color: #0E0B1D;
+}
+
+header div:first-of-type button {
+  font: normal normal bold calc(0.65rem + 0.2vw)/calc(0.9rem + 0.35vw) Almarai;
+  color: #0E0B1D;
+}
+header div:first-of-type button svg {
+  font-size: 1em;
+}
+header div:last-of-type {
+  border-color: #0E0B1D1A !important;
+}
+header div:last-of-type input {
+  font: normal normal bold calc(0.8rem + 0.2vw)/calc(0.8rem + 0.2vw) Almarai;
+}
+header a {
+  padding: 0.5rem 0.5rem;
+  font: normal normal bold calc(0.6rem + 0.2vw)/calc(0.9rem + 0.35vw) Almarai;
+}
+header a:nth-of-type(-n+2) {
+  color: #0E0B1D;
+}
+header a:nth-of-type(3) {
+  color: #ffffff;
+  background-color: #AF151F;
+}
+header a:nth-of-type(4) {
+  border-color: rgba(175, 21, 31, 0.4);
+  color: #AF151F;
+}
+
+#DoraContainer #breadcrumb ol li {
+  font: normal normal bold calc(0.7rem + 0.25vw)/calc(0.9rem + 0.35vw) Almarai;
+  color: #222222;
+}
+#DoraContainer #breadcrumb ol li a {
+  font: inherit !important;
+  color: inherit !important;
+}
+#DoraContainer #videoWrapper > div {
+  font: normal normal bold 15px/24px Almarai;
+  color: #ffffff;
+  background-color: #0000001A;
+}
+#DoraContainer #DoraWhatLearn {
+  border-color: rgba(112, 112, 112, 0.2) !important;
+}
+#DoraContainer #DoraDetails p {
+  font: normal normal normal calc(0.65rem + 0.35vw)/calc(1.4rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraKeyWords > div .chipTags {
+  background-color: #F2F2F2;
+  color: #777777;
+}
+#DoraContainer #DoraLevel {
+  border-color: rgba(112, 112, 112, 0.2) !important;
+}
+#DoraContainer #DoraLevel div {
+  background-color: #FCF3F4;
+}
+#DoraContainer #DoraLevel div > * {
+  color: #C1121F;
+}
+#DoraContainer #DoraLevel div span {
+  font: normal normal 800 calc(0.65rem + 0.3vw)/calc(1.25rem + 0.35vw) Almarai;
+}
+#DoraContainer #DoraLevel h4 {
+  font: normal normal 800 calc(0.8rem + 0.3vw)/calc(1.7rem + 0.35vw) Almarai;
+}
+#DoraContainer #DoraLevel ul {
+  list-style: none;
+}
+#DoraContainer #DoraLevel ul li {
+  color: #707070;
+  font: normal normal normal calc(0.63rem + 0.3vw)/calc(1.25rem + 0.35vw) Almarai;
+}
+#DoraContainer #DoraLevel ul li::before {
+  content: "•";
+  color: #777777;
+  font-weight: bold;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+}
+#DoraContainer #DoraContent > div span {
+  font: normal normal normal calc(0.8rem + 0.3vw)/calc(1.3rem + 0.4vw) Almarai;
+  color: #777777;
+}
+#DoraContainer #DoraContent > div span span {
+  font-weight: bold;
+  color: inherit;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary {
+  background-color: #F5F5F5;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary h6 {
+  font: normal normal 800 calc(0.7rem + 0.3vw)/calc(1.5rem + 0.3vw) Almarai;
+  color: #222222;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary span {
+  color: #777777;
+  font: normal normal normal calc(0.5rem + 0.25vw)/calc(0.5rem + 0.2vw) Almarai;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary span > span {
+  font-weight: bold;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary svg {
+  color: #AF151F;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper {
+  -webkit-box-shadow: 0px 5px 20px #00000014 !important;
+          box-shadow: 0px 5px 20px #00000014 !important;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper .DoraContentAccordionDetails > div:first-of-type svg {
+  color: #AF151F;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper .DoraContentAccordionDetails > div:first-of-type > div p {
+  font: normal normal bold calc(0.53rem + 0.3vw)/calc(1.2rem + 0.3vw) Almarai;
+  color: #333333;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper .DoraContentAccordionDetails > div:first-of-type > div span {
+  font: normal normal normal calc(0.5rem + 0.25vw)/calc(0.5rem + 0.2vw) Almarai;
+  color: #777777;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper .DoraContentAccordionDetails > div:last-of-type p {
+  font: normal normal bold calc(0.53rem + 0.3vw)/calc(1.2rem + 0.3vw) Almarai;
+  color: #222222;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper .DoraContentAccordionDetails > div:last-of-type svg.lecFree {
+  color: #AF151F;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetailsWrapper .DoraContentAccordionDetails > div:last-of-type svg.lecPrim {
+  color: rgba(0, 0, 0, 0.36);
+}
+#DoraContainer #DoraInstructor div h6 {
+  font: normal normal 800 calc(0.7rem + 0.3vw)/calc(1.5rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraInstructor div p {
+  font: normal normal normal calc(0.55rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+  color: #555555;
+}
+#DoraContainer #DoraInstructor div span {
+  font: normal normal normal calc(0.5rem + 0.25vw)/calc(0.5rem + 0.2vw) Almarai;
+  color: #777777;
+}
+#DoraContainer #DoraInstructor div span svg {
+  color: inherit;
+}
+#DoraContainer #DoraInstructor p {
+  font: normal normal normal calc(0.55rem + 0.35vw)/calc(1.2rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraInstructor a svg {
+  color: inherit;
+}
+#DoraContainer > .DoraSatisfy {
+  background-color: #E8F3EE;
+}
+#DoraContainer > .DoraSatisfy svg {
+  font-size: 2.4rem;
+  color: #198754;
+}
+#DoraContainer > .DoraSatisfy h4 {
+  font: normal normal 800 calc(0.7rem + 0.3vw)/calc(1.5rem + 0.3vw) Almarai;
+  color: #222222;
+}
+#DoraContainer > .DoraSatisfy p {
+  font: normal normal 300 calc(0.66rem + 0.3vw)/calc(1.5rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraCert p {
+  font: normal normal normal calc(0.9rem + 0.4vw)/calc(1.5rem + 0.4vw) Almarai;
+  color: #777777;
+}
+#DoraContainer #DoraCert p span {
+  font: inherit;
+  font-weight: bold;
+  color: #222222;
+}
+#DoraContainer #DoraCert > div {
+  -webkit-box-shadow: 0px 0px 20px #0000001A !important;
+          box-shadow: 0px 0px 20px #0000001A !important;
+  background-color: #ffffff;
+}
+#DoraContainer #DoraCert > div > div {
+  border-color: rgba(112, 112, 112, 0.3) !important;
+  background-color: #ffffff;
+}
+#DoraContainer #DoraCert > div > div p {
+  color: #222222;
+  font: normal normal 800 calc(0.9rem + 0.35vw)/calc(1.5rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraCert > div > div > div span {
+  background-color: #000000;
+  opacity: 0.15;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion {
+  -webkit-box-shadow: 0px 0px 20px #0000001A !important;
+          box-shadow: 0px 0px 20px #0000001A !important;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary h5 {
+  font: normal normal bold calc(0.7rem + 0.3vw)/calc(1.6rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .css-15v22id-MuiAccordionDetails-root p {
+  font: normal normal normal calc(0.55rem + 0.35vw)/calc(1.2rem + 0.4vw) Almarai;
+  color: #707070;
+}
+#DoraContainer #DoraFaq > p {
+  font: normal normal bold calc(0.65rem + 0.35vw)/calc(1.6rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraFaq > p span {
+  font: inherit;
+  color: #777777;
+}
+#DoraContainer #DoraFaq > p a {
+  font: inherit;
+  color: #AF151F;
+}
+#DoraContainer #DoraOffer {
+  background-color: #F7E7E8;
+}
+#DoraContainer #DoraOffer h5 {
+  color: #AF151F;
+  font: normal normal 800 calc(0.8rem + 0.3vw)/calc(1.5rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer {
+  background-color: #ffffff;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem {
+  -webkit-box-shadow: 0px 0px 21px #0000001A !important;
+          box-shadow: 0px 0px 21px #0000001A !important;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:first-of-type .chipTags {
+  background-color: #7B2CBF;
+  color: #ffffff;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:last-of-type > span:first-of-type {
+  font: normal normal bold calc(0.65rem + 0.2vw)/calc(0.8rem + 0.3vw) Almarai;
+  color: #222222;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:last-of-type > span:last-of-type {
+  color: #777777;
+  font: normal normal normal calc(0.65rem + 0.2vw)/calc(0.8rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > p {
+  font: normal normal bold calc(0.55rem + 0.15vw)/calc(0.8rem + 0.3vw) Almarai;
+  color: #222222;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > p > span {
+  color: inherit !important;
+  font: normal normal 800 calc(0.7rem + 0.3vw)/calc(0.8rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > span {
+  color: #777777;
+  font: normal normal normal calc(0.5rem + 0.1vw)/calc(0.7rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > span::after {
+  background-color: #AF151F;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > span span {
+  color: inherit;
+  font: inherit;
+  font-size: calc(0.65rem + 0.2vw);
+  font-weight: 800;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer svg.DoraOfferPlus {
+  font-size: 30px;
+  color: #AF151F;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type p {
+  color: #222222;
+  font: normal normal bold calc(1.0rem + 0.45vw)/calc(1.75rem + 0.5vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type p span {
+  color: inherit;
+  font: normal normal 800 calc(1.5rem + 0.55vw)/calc(1.5rem + 0.5vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span {
+  display: block;
+  color: #777777;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span span {
+  color: inherit;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:first-of-type {
+  font: normal normal normal calc(0.75rem + 0.3vw)/calc(1.5rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:first-of-type span {
+  font: normal normal bold calc(1.25rem + 0.5vw)/calc(1.25rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:first-of-type::after {
+  background-color: #AF151F;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:last-of-type {
+  font: normal normal normal calc(0.6rem + 0.2vw)/calc(1.25rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:last-of-type span {
+  font: normal normal bold calc(0.75rem + 0.35vw)/calc(1.25rem + 0.4vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div > span {
+  font: normal normal bold calc(0.6rem + 0.2vw)/calc(0.9rem + 0.3vw) Almarai;
+  color: #AF151F;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div div {
+  font: normal normal bold calc(1.2rem + 0.3vw)/calc(0.9rem + 0.3vw) Almarai;
+  color: #AF151F;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div div p {
+  font: normal normal 800 calc(0.7rem + 0.3vw)/calc(0.9rem + 0.3vw) Almarai;
+  color: #AF151F;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div div p span {
+  font: normal normal bold calc(0.6rem + 0.2vw)/calc(0.9rem + 0.3vw) Almarai;
+  color: rgba(0, 0, 0, 0.6);
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div button {
+  background-color: #AF151F;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 4px 20px #AF151F4D !important;
+          box-shadow: 0px 4px 20px #AF151F4D !important;
+  font: normal normal bold calc(0.6rem + 0.3vw)/calc(1.25rem + 0.3vw) Almarai;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div button svg {
+  background-color: inherit;
+  color: inherit;
+}
+
+#GradusProjects h3 {
+  color: #222222;
+  font: normal normal normal calc(1.15rem + 0.4vw)/calc(1.7rem + 0.4vw) Almarai;
+}
+#GradusProjects h3 span {
+  color: inherit;
+  font: normal normal 800 calc(1.12rem + 0.4vw)/calc(1.7rem + 0.4vw) Almarai;
+}
+#GradusProjects > p {
+  color: #707070;
+  font: normal normal normal calc(0.7rem + 0.3vw)/calc(1.5rem + 0.4vw) Almarai;
+}
+#GradusProjects > div .GradusProjectsItem {
+  -webkit-box-shadow: 0px 0px 40px #00000033 !important;
+          box-shadow: 0px 0px 40px #00000033 !important;
+}
+#GradusProjects > div .GradusProjectsItem > div > div p {
+  font: normal normal bold calc(0.65rem + 0.3vw)/calc(1.6rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#GradusProjects > div .GradusProjectsItem > div > div p .chipTags {
+  background-color: #F2F2F2;
+  color: #777777;
+}
+#GradusProjects > div .GradusProjectsItem > div > div > span {
+  color: #999999;
+  font: normal normal 600 calc(0.48rem + 0.2vw)/calc(0.9rem + 0.3vw) Almarai;
+}
+
+#DoraOverRating h5 {
+  font: normal normal 800 calc(0.8rem + 0.3vw)/calc(1.5rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#DoraOverRating > div p {
+  font: normal normal 800 calc(2.7rem + 0.7vw)/calc(2.2rem + 0.5vw) Almarai;
+  color: #222222;
+}
+#DoraOverRating > div > div > .ratingSpan > span span {
+  font-size: calc(1.7rem + 0.5vw);
+}
+#DoraOverRating > div > div > span {
+  font: normal normal normal calc(0.65rem + 0.2vw)/calc(1.2rem + 0.4vw) Almarai;
+  color: #999999;
+}
+#DoraOverRating > div > div > span span {
+  font: normal normal bold calc(0.65rem + 0.2vw)/calc(1.2rem + 0.4vw) Almarai;
+  color: inherit;
+}
+#DoraOverRating .DoraOverRatingItem {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px #0000001A !important;
+          box-shadow: 0px 0px 20px #0000001A !important;
+}
+#DoraOverRating .DoraOverRatingItem > div p:first-of-type {
+  font: normal normal bold calc(0.65rem + 0.3vw)/calc(1.6rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#DoraOverRating .DoraOverRatingItem > div p:last-of-type {
+  font: normal normal normal calc(0.55rem + 0.35vw)/calc(1.2rem + 0.4vw) Almarai;
+  color: #707070;
+}
+#DoraOverRating .DoraOverRatingItem > div > div > span {
+  font: normal normal 600 calc(0.48rem + 0.2vw)/calc(0.9rem + 0.3vw) Almarai;
+  color: #999999;
+}
+
+#DoraRecomand h3 {
+  font: normal normal normal calc(1.15rem + 0.4vw)/calc(1.7rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#DoraRecomand h3 span {
+  color: inherit;
+  font: normal normal 800 calc(1.12rem + 0.4vw)/calc(1.7rem + 0.4vw) Almarai;
+}
+#DoraRecomand > a {
+  font: normal normal bold calc(0.7rem + 0.2vw)/calc(1.2rem + 0.4vw) Almarai;
+  color: #999999;
+  -webkit-box-shadow: 0px 1px 16px #00000021 !important;
+          box-shadow: 0px 1px 16px #00000021 !important;
+}
+#DoraRecomand .DoraRecomandItem {
+  -webkit-box-shadow: 0px 8px 21px #0000001A !important;
+          box-shadow: 0px 8px 21px #0000001A !important;
+}
+#DoraRecomand .DoraRecomandItem > div:first-of-type .chipTags {
+  background-color: #7B2CBF;
+  color: #ffffff;
+}
+#DoraRecomand .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(1) {
+  color: #222222;
+  font: normal normal bold calc(0.55rem + 0.15vw)/calc(0.8rem + 0.3vw) Almarai;
+}
+#DoraRecomand .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(1) span {
+  font-size: calc(0.7rem + 0.3vw);
+}
+#DoraRecomand .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(2) {
+  color: #777777;
+  font: normal normal normal calc(0.5rem + 0.1vw)/calc(0.7rem + 0.3vw) Almarai;
+}
+#DoraRecomand .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(2) span {
+  font-size: calc(0.65rem + 0.2vw);
+}
+#DoraRecomand .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(2)::after {
+  background-color: #AF151F;
+}
+#DoraRecomand .DoraRecomandItem > div:last-of-type > div:first-of-type p span {
+  font: inherit;
+  font-weight: 800;
+  color: inherit;
+}
+
+#Comments > form > * {
+  font: normal normal normal calc(0.7rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+}
+#Comments > form textarea {
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #999999;
+}
+#Comments > form button {
+  color: #ffffff;
+  background-color: #AF151F;
+}
+#Comments > form button svg {
+  font-size: 1em;
+}
+#Comments > div .CommentsItem > div > p:first-of-type {
+  color: #222222;
+  font: normal normal bold calc(0.65rem + 0.3vw)/calc(1.6rem + 0.4vw) Almarai;
+}
+#Comments > div .CommentsItem > div > p:first-of-type .chipTags {
+  background-color: #F2F2F2;
+}
+#Comments > div .CommentsItem > div > p:first-of-type .chipTags span {
+  font: normal normal bold calc(0.45rem + 0.2vw)/calc(0.85rem + 0.3vw) Almarai;
+  color: #777777;
+}
+#Comments > div .CommentsItem > div > p:nth-of-type(2) {
+  color: #777777;
+  font: normal normal normal calc(0.55rem + 0.35vw)/calc(1.2rem + 0.4vw) Almarai;
+}
+#Comments > div .CommentsItem > div > div {
+  background-color: transparent;
+}
+#Comments > div .CommentsItem > div > div * {
+  background-color: transparent;
+}
+#Comments > div .CommentsItem > div > div:first-of-type span {
+  color: #999999;
+  font: normal normal 600 calc(0.48rem + 0.2vw)/calc(0.9rem + 0.3vw) Almarai;
+}
+#Comments > div .CommentsItem > div > div:last-of-type p, #Comments > div .CommentsItem > div > div:last-of-type button {
+  font: normal normal normal calc(0.5rem + 0.3vw)/13px Almarai !important;
+  color: #777777;
+}
+#Comments > div.nestedComments::before {
+  background-color: rgba(112, 112, 112, 0.1);
+}
+#Comments > div.nestedComments .primaryCom::after {
+  background-color: rgba(112, 112, 112, 0.1);
+}
+#Comments > div.nestedComments .secondaryCom::after {
+  background-color: rgba(112, 112, 112, 0.1);
+}
+#Comments > div.nestedComments .secondaryCom::before {
+  background-color: rgba(112, 112, 112, 0.1);
+}
+#Comments > div.nestedComments .secondaryCom:last-of-type::after {
+  background-color: #ffffff;
+}
+
+#BuyCard {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px #0000001A !important;
+          box-shadow: 0px 0px 20px #0000001A !important;
+}
+#BuyCard > hr {
+  margin-block: 1.25rem;
+}
+#BuyCard > .DoraSatisfy {
+  background-color: #E8F3EE;
+}
+#BuyCard > .DoraSatisfy svg {
+  font-size: 1.5em;
+  color: #198754;
+}
+#BuyCard > .DoraSatisfy h4 {
+  font: normal normal bold calc(0.6rem + 0.15vw)/calc(1rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#BuyCard > .DoraSatisfy p {
+  font: normal normal 300 calc(0.55rem + 0.15vw)/calc(0.8rem + 0.4vw) Almarai;
+}
+#BuyCard p {
+  color: #222222;
+}
+#BuyCard > p:nth-of-type(1) {
+  font: normal normal 800 calc(0.8rem + 0.3vw)/calc(1.7rem + 0.35vw) Almarai;
+}
+#BuyCard > p:nth-of-type(2) {
+  font: normal normal bold calc(0.7rem + 0.3vw)/calc(0.7rem + 0.4vw) Almarai;
+}
+#BuyCard > p:nth-of-type(2) span {
+  color: inherit;
+  font: normal normal 800 calc(1.2rem + 0.3vw)/calc(1.5rem + 0.4vw) Almarai;
+}
+#BuyCard > p:nth-of-type(3) {
+  color: #333333 !important;
+  background-color: #F7E7E8;
+  font: normal normal normal calc(0.6rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+}
+#BuyCard > p:nth-of-type(3) span {
+  color: inherit;
+  font: inherit;
+  font-weight: 800;
+}
+#BuyCard > p:nth-of-type(4) {
+  font: normal normal normal calc(0.65rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+}
+#BuyCard > p:nth-of-type(4) span {
+  font: inherit;
+  color: #777777;
+}
+#BuyCard > p:nth-of-type(4) a {
+  font: inherit;
+  font-weight: 800;
+  color: #AF151F;
+}
+#BuyCard > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #777777;
+}
+#BuyCard > span > span:first-of-type {
+  font: normal normal normal calc(0.6rem + 0.15vw)/calc(0.7rem + 0.4vw) Almarai;
+}
+#BuyCard > span > span:first-of-type span {
+  font: normal normal 800 calc(0.8rem + 0.3vw)/calc(0.7rem + 0.4vw) Almarai;
+}
+#BuyCard > span > span:first-of-type::after {
+  background-color: #AF151F;
+}
+#BuyCard > span > span:last-of-type {
+  font: normal normal normal calc(0.65rem + 0.15vw)/calc(0.7rem + 0.4vw) Almarai;
+}
+#BuyCard > div:nth-of-type(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#BuyCard > div:nth-of-type(1) button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#BuyCard > div:nth-of-type(1) button:first-of-type {
+  background-color: #AF151F;
+  color: #ffffff;
+  font: normal normal bold calc(0.6rem + 0.3vw)/calc(1.25rem + 0.3vw) Almarai;
+}
+#BuyCard > div:nth-of-type(1) button:first-of-type svg {
+  color: inherit;
+  font-size: 1.5em;
+}
+#BuyCard > div:nth-of-type(1) button svg {
+  border-radius: 12px;
+}
+#BuyCard > div:nth-of-type(2) p {
+  font: normal normal 600 calc(0.55rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+  color: #222222;
+}
+#BuyCard > div:nth-of-type(2) p svg {
+  color: #AF151F;
+  font-size: 1.4em;
+}
+
+#contact {
+  background: transparent -webkit-gradient(linear, right top, left top, from(#AF151F), to(#580B10)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(270deg, #AF151F 0%, #580B10 100%) 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 56px #0000001A !important;
+          box-shadow: 0px 3px 56px #0000001A !important;
+  opacity: 0.87;
+}
+#contact div {
+  background-color: #ffffff;
+}
+#contact div::before {
+  background-color: #AF151F;
+}
+#contact div span:first-of-type {
+  color: #AF151F;
+  font: normal normal 800 calc(0.9rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+}
+#contact div span:last-of-type {
+  font: normal normal 800 calc(0.75rem + 0.3vw)/calc(1.0rem + 0.4vw) Almarai;
+  color: #000000;
+}
+#contact > *:not(div) {
+  color: #ffffff;
+}
+#contact p {
+  font: normal normal 800 calc(0.75rem + 0.3vw)/calc(1rem + 0.4vw) Almarai;
+}
+#contact > span {
+  font: normal normal normal calc(0.55rem + 0.35vw)/calc(1.0rem + 0.4vw) Almarai;
+}
+#contact a {
+  font: normal normal normal calc(0.65rem + 0.3vw)/calc(1.2rem + 0.4vw) Almarai;
+  border-color: #ffffff;
+}
+
+header {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  background-color: white !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+header > div:first-of-type button {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: transparent;
+  color: #333;
+}
+header > div:first-of-type button:hover, header > div:first-of-type button:focus {
+  background-color: transparent !important;
+  color: #333 !important;
+}
+header > div:first-of-type button span {
+  margin: 0;
+}
+header > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 2px solid #333;
+  border-radius: 0.75rem;
+}
+header > div:last-of-type svg {
+  color: #333;
+}
+
+.css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  left: auto;
+  right: 8rem;
+}
+
+header {
+  padding: 1rem 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+header > img {
+  width: 93px;
+  height: 31px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+header > div:last-of-type {
+  border: 2px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-inline: 0.5rem;
+}
+header > div:last-of-type > div {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+header > div:last-of-type svg {
+  margin-left: 0.5rem;
+}
+header > div:last-of-type input {
+  padding-block: 0.5rem;
+  width: 28vw;
+  border-radius: 12px;
+}
+header > a:nth-of-type(n+3) {
+  border-radius: 10px;
+}
+header > a:nth-of-type(4) {
+  border: 1px solid;
+}
+header > span {
+  position: relative;
+}
+header > span img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+header > span span {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+#headerPhone {
+  display: none;
+}
+
+.sectionBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.sectionBtnSvgWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sectionBtnSvgWrapper svg {
+  font-size: 1.2em;
+  color: inherit;
+}
+
+.chipTags {
+  padding: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+.chipTags span {
+  background-color: inherit;
+  color: inherit;
+  padding: 0.25rem 0.75rem;
+}
+
+#DoraWrapper {
+  margin: 5rem 7.5% 0rem;
+  width: 85%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 65% 5% 30%;
+  grid-template-columns: 65% 30%;
+      grid-template-areas: "DrCont .";
+  -webkit-column-gap: 5%;
+     -moz-column-gap: 5%;
+          column-gap: 5%;
+  position: relative;
+}
+@media screen and (max-width: 992px) {
+  #DoraWrapper {
+    margin: 5rem 4% 0rem !important;
+    width: 92% !important;
+    display: block !important;
+  }
+}
+
+#BuyCard {
+  position: fixed;
+  top: 1rem;
+  left: 4rem;
+  width: 30%;
+  padding: 2% 1.8%;
+  border-radius: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-transform: scale3d(0.85, 0.73, 1);
+          transform: scale3d(0.85, 0.73, 1);
+}
+#BuyCard > * {
+  width: 100%;
+  margin-inline: 0;
+}
+#BuyCard > p:nth-of-type(3) {
+  padding: 1rem 0.8rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+#BuyCard > p:nth-of-type(4) span {
+  margin-left: 0.5rem;
+}
+#BuyCard > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+#BuyCard > span > span:first-of-type {
+  position: relative;
+}
+#BuyCard > span > span:first-of-type::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 100%;
+  height: 1px;
+}
+#BuyCard > span > span:last-of-type {
+  margin-right: 0.25rem;
+}
+#BuyCard > div {
+  margin-bottom: 0.75rem;
+}
+#BuyCard > div:nth-of-type(1) {
+  margin-top: 0.75rem;
+}
+#BuyCard > div:nth-of-type(1) button {
+  border-radius: 12px;
+  border: none;
+  padding: 0.6rem 1.1rem;
+}
+#BuyCard > div:nth-of-type(1) button:first-of-type svg {
+  margin-left: 0.5rem;
+}
+#BuyCard > div:nth-of-type(2) p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.35rem;
+}
+#BuyCard > div:nth-of-type(2) p svg {
+  margin-left: 0.5rem;
+}
+#BuyCard > .DoraSatisfy {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "SatfSvg SatfHd" "SatfSvg SatfPg";
+  -ms-grid-columns: 2rem auto;
+  grid-template-columns: 2rem auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: right;
+  border-radius: 12px;
+  padding: 0.75rem 0.5rem;
+}
+#BuyCard > .DoraSatisfy svg {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: SatfSvg;
+}
+#BuyCard > .DoraSatisfy h4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: SatfHd;
+}
+#BuyCard > .DoraSatisfy p {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: SatfPg;
+}
+
+#GradusProjects {
+  margin: 2rem 8% 3.5rem;
+}
+#GradusProjects h3 span {
+  display: block;
+  clear: both;
+}
+#GradusProjects > p {
+  padding-left: 13%;
+  margin-bottom: 3rem;
+}
+#GradusProjects > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1rem 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 1fr 1.5rem 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1.5rem 1rem;
+}
+#GradusProjects > div > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+#GradusProjects > div > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+#GradusProjects > div > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+#GradusProjects > div > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+#GradusProjects > div .GradusProjectsItem {
+  border-radius: 20px;
+  overflow: hidden;
+}
+#GradusProjects > div .GradusProjectsItem img {
+  height: calc(25vh + 10vw);
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#GradusProjects > div .GradusProjectsItem > div {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "gdrImg gdrDv";
+  -ms-grid-columns: 50px auto;
+  grid-template-columns: 50px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 1.2rem;
+}
+#GradusProjects > div .GradusProjectsItem > div img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: gdrImg;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#GradusProjects > div .GradusProjectsItem > div > div {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: gdrDv;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#GradusProjects > div .GradusProjectsItem > div > div p .chipTags {
+  margin-right: 0.7rem;
+}
+
+#DoraOverRating {
+  margin-right: calc(8% - 2rem);
+  margin-bottom: 3.5rem;
+}
+#DoraOverRating h5 {
+  direction: rtl !important;
+}
+#DoraOverRating .DoraOverRatingDesc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraOverRating .DoraOverRatingDesc p {
+  grid-area: ovrPg;
+  direction: rtl !important;
+  margin-left: 1rem;
+}
+#DoraOverRating .DoraOverRatingDesc > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  direction: rtl !important;
+}
+#DoraOverRating .DoraOverRatingDesc > div * {
+  direction: rtl !important;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-next, #DoraOverRating .DoraOverRatingCarousel .slick-prev {
+  opacity: 1;
+  right: auto !important;
+  border-radius: 50% !important;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-next::before, #DoraOverRating .DoraOverRatingCarousel .slick-prev::before {
+  content: "";
+  background-image: url("../public/Icons/arrow1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 30px !important;
+  max-width: 30px !important;
+  padding: 0.35rem;
+  font-size: 0px;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-next {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+@media screen and (min-width: 560px) {
+  #DoraOverRating .DoraOverRatingCarousel .slick-next, #DoraOverRating .DoraOverRatingCarousel .slick-prev {
+    background-color: white !important;
+    -webkit-box-shadow: 0px 0px 20px #00000033 !important;
+            box-shadow: 0px 0px 20px #00000033 !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #DoraOverRating .DoraOverRatingCarousel .slick-prev {
+    left: 3rem !important;
+    top: -24% !important;
+  }
+  #DoraOverRating .DoraOverRatingCarousel .slick-next {
+    left: 6.3rem !important;
+    top: -31% !important;
+  }
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list {
+  -webkit-transform: translate3d(20px, 0px, 0px);
+          transform: translate3d(20px, 0px, 0px);
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide {
+  -webkit-transform: translate3d(27vw, 0px, 0px);
+          transform: translate3d(27vw, 0px, 0px);
+}
+@media (max-width: 576px) {
+  #DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide {
+    -webkit-transform: translate3d(79vw, 0px, 0px) !important;
+            transform: translate3d(79vw, 0px, 0px) !important;
+  }
+}
+@media (max-width: 992px) and (min-width: 576px) {
+  #DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide {
+    -webkit-transform: translate3d(42vw, 0px, 0px) !important;
+            transform: translate3d(42vw, 0px, 0px) !important;
+  }
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide > div .DoraOverRatingItem {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "rtgImg rtgDv";
+  -ms-grid-columns: 50px auto;
+  grid-template-columns: 50px auto;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin: 20px 40px;
+  margin-right: 0px;
+  direction: rtl !important;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide > div .DoraOverRatingItem * {
+  direction: rtl !important;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide > div .DoraOverRatingItem img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: rtgImg;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide > div .DoraOverRatingItem > div {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: rtgDv;
+}
+#DoraOverRating .DoraOverRatingCarousel .slick-list .slick-track .slick-slide > div .DoraOverRatingItem > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#DoraRecomand {
+  margin-right: 8%;
+  margin-bottom: 4.5rem;
+  position: relative;
+}
+#DoraRecomand h3 {
+  direction: rtl !important;
+}
+#DoraRecomand h3 span {
+  clear: both;
+  display: block;
+}
+#DoraRecomand > a {
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 10rem;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-next, #DoraRecomand .DoraRecomandCarousel .slick-prev {
+  opacity: 1;
+  right: auto !important;
+  border-radius: 50% !important;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-next::before, #DoraRecomand .DoraRecomandCarousel .slick-prev::before {
+  content: "";
+  background-image: url("../public/Icons/arrow1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 30px !important;
+  max-width: 30px !important;
+  padding: 0.35rem;
+  font-size: 0px;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-next {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+@media screen and (min-width: 560px) {
+  #DoraRecomand .DoraRecomandCarousel .slick-next, #DoraRecomand .DoraRecomandCarousel .slick-prev {
+    background-color: white !important;
+    -webkit-box-shadow: 0px 0px 20px #00000033 !important;
+            box-shadow: 0px 0px 20px #00000033 !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  #DoraRecomand .DoraRecomandCarousel .slick-prev {
+    left: 3rem !important;
+    top: -24% !important;
+  }
+  #DoraRecomand .DoraRecomandCarousel .slick-next {
+    left: 6.3rem !important;
+    top: -31% !important;
+  }
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list {
+  -webkit-transform: translate3d(20px, 0px, 0px);
+          transform: translate3d(20px, 0px, 0px);
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide {
+  -webkit-transform: translate3d(-20px, 0px, 0px);
+          transform: translate3d(-20px, 0px, 0px);
+}
+@media (max-width: 576px) {
+  #DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide {
+    -webkit-transform: translate3d(-2vw, 0px, 0px) !important;
+            transform: translate3d(-2vw, 0px, 0px) !important;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  #DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide {
+    -webkit-transform: translate3d(-2vw, 0px, 0px) !important;
+            transform: translate3d(-2vw, 0px, 0px) !important;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  #DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide {
+    -webkit-transform: translate3d(-2vw, 0px, 0px) !important;
+            transform: translate3d(-2vw, 0px, 0px) !important;
+  }
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem {
+  margin: 1rem 20px;
+  margin-right: 0px;
+  border-radius: 12px;
+  overflow: hidden;
+  direction: rtl !important;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem * {
+  direction: rtl !important;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem hr {
+  margin-inline: 1rem;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:first-of-type {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 29.5vh;
+  position: relative;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:first-of-type .chipTags {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:nth-of-type(2) {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "rcdImg rcdPg" "rcdImg rcdSp";
+  -ms-grid-columns: 50px auto;
+  grid-template-columns: 50px auto;
+  padding: 1rem;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:nth-of-type(2) img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: rcdImg;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:nth-of-type(2) p {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: rcdPg;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:nth-of-type(2) span {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: rcdSp;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type > div:first-of-type p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(2) {
+  position: relative;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type > div:first-of-type p:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: calc(2.25rem + 3vw);
+  height: 1px;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type > div:first-of-type p span {
+  margin-left: 0.25rem;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type > div:last-of-type svg {
+  border-radius: 12px;
+}
+#DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:last-of-type > div:last-of-type svg:first-of-type {
+  margin-left: 0.5rem;
+}
+
+#Comments {
+  margin: 2rem 8% 10rem;
+}
+#Comments > form {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+}
+#Comments > form > *:focus {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+#Comments > form textarea {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+#Comments > form button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: none;
+  padding: 0.35rem;
+  border-radius: 10px;
+}
+#Comments > form button svg {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  margin-right: 0.5rem;
+}
+#Comments > div .CommentsItem {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "cmtImg cmtDv";
+  -ms-grid-columns: 50px auto;
+  grid-template-columns: 50px auto;
+  margin-block: 3rem;
+}
+#Comments > div .CommentsItem > img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: cmtImg;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#Comments > div .CommentsItem > div {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: cmtDv;
+}
+#Comments > div .CommentsItem > div p:first-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#Comments > div .CommentsItem > div p:first-of-type .chipTags {
+  margin-right: 1rem;
+}
+#Comments > div .CommentsItem > div p:nth-of-type(2) {
+  clear: both;
+  margin-bottom: 0.5rem;
+}
+#Comments > div .CommentsItem > div > div:first-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#Comments > div .CommentsItem > div > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#Comments > div .CommentsItem > div > div:last-of-type img {
+  height: 15px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-left: 0.2rem;
+}
+#Comments > div .CommentsItem > div > div:last-of-type p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-left: 0.75rem;
+}
+#Comments > div .CommentsItem > div > div:last-of-type p img {
+  width: 18px;
+}
+#Comments > div .CommentsItem > div > div:last-of-type form {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#Comments > div .CommentsItem > div > div:last-of-type form svg {
+  margin-left: 0.5rem;
+}
+#Comments > div .CommentsItem > div > div:last-of-type form img {
+  width: 15px;
+}
+#Comments > div .CommentsItem > div > div:last-of-type form button {
+  border: none;
+  background-color: transparent;
+}
+#Comments > div.nestedComments {
+  position: relative;
+}
+#Comments > div.nestedComments::before {
+  position: absolute;
+  top: 45px;
+  right: 15px;
+  content: "";
+  width: 2px;
+  height: 85%;
+}
+#Comments > div.nestedComments .primaryCom {
+  position: relative;
+}
+#Comments > div.nestedComments .primaryCom::after {
+  position: absolute;
+  bottom: -1.5rem;
+  right: 50px;
+  content: "";
+  width: 94%;
+  height: 2px;
+}
+#Comments > div.nestedComments .secondaryCom {
+  margin-right: 3rem;
+  position: relative;
+}
+#Comments > div.nestedComments .secondaryCom::before {
+  position: absolute;
+  top: 20px;
+  right: -33px;
+  content: "";
+  width: 20px;
+  height: 2px;
+}
+#Comments > div.nestedComments .secondaryCom::after {
+  position: absolute;
+  bottom: -1.5rem;
+  right: 0px;
+  content: "";
+  width: 100%;
+  height: 2px;
+}
+#Comments > div.nestedComments .secondaryCom:last-of-type::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 80%;
+  right: -33px;
+  top: 21px;
+}
+#Comments > div.nestedComments .secondaryCom > div > div:last-of-type form {
+  display: none;
+}
+
+#contact {
+  margin: 0rem 8% 5rem;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "cntDv cntPg" "cntDv cntSp" "cntDv cntA";
+  -ms-grid-columns: calc(6rem + 3vw) 8% auto;
+  grid-template-columns: calc(6rem + 3vw) auto;
+  -webkit-column-gap: 8%;
+     -moz-column-gap: 8%;
+          column-gap: 8%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 1.75rem 2.35rem;
+}
+#contact div {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  padding: calc(1.2rem + 0.3vw) calc(2.2rem + 0.5vw);
+  position: relative;
+  grid-area: cntDv;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#contact div::before {
+  content: "";
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  width: 7px;
+  height: 7px;
+}
+#contact div span {
+  display: block;
+}
+#contact p {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: cntPg;
+  margin-bottom: 0.5rem;
+}
+#contact > span {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: cntSp;
+  margin-bottom: 0.5rem;
+}
+#contact a {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  border: 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-area: cntA;
+}
+@media screen and (max-width: 560px){
+
+  #contact div {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+
+  #contact p {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+
+  #contact > span {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }
+
+  #contact a {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+}
+#contact a svg {
+  color: inherit;
+  margin-right: 0.5rem;
+}
+
+.beforShadow, #DoraContainer #DoraDetails > div > div:nth-of-type(2)::before, #DoraContainer #DoraWhatLearn > div > div:nth-of-type(2)::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  width: 100%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#FFFFFF00), to(#FFFFFF)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #FFFFFF00 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+}
+
+#DoraContainer {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: DrCont;
+  margin-bottom: 12rem;
+}
+#DoraContainer #DoraWhatLearn, #DoraContainer #DoraDetails, #DoraContainer #DoraKeyWords, #DoraContainer #DoraLevel {
+  margin-bottom: 2.5rem;
+}
+#DoraContainer #DoraContent, #DoraContainer #DoraInstructor, #DoraContainer > .DoraSatisfy {
+  margin-bottom: 3.5rem;
+}
+#DoraContainer #breadcrumb {
+  margin-bottom: 1rem;
+}
+#DoraContainer #videoWrapper {
+  width: 100%;
+  background-image: url("../public/Images/backImg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+}
+#DoraContainer #videoWrapper > * {
+  width: inherit;
+  height: calc(36vh + 16vw);
+  border-radius: 1rem;
+}
+#DoraContainer #videoWrapper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#DoraContainer #videoWrapper > div svg {
+  clear: both;
+  font-size: 4rem;
+  cursor: pointer;
+}
+#DoraContainer #videoWrapper .videoElm {
+  display: none;
+}
+#DoraContainer #DoraWhatLearn {
+  border: 1px solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#DoraContainer #DoraWhatLearn p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraWhatLearn p img {
+  width: calc(0.6rem + 0.3vw);
+  margin-left: 0.5rem;
+}
+#DoraContainer #DoraWhatLearn > div > div:nth-of-type(2) {
+  position: relative;
+}
+#DoraContainer #DoraWhatLearn > div > div:nth-of-type(2)::before {
+  height: 75px;
+}
+#DoraContainer #DoraWhatLearn > div > div:nth-of-type(2) button img {
+  width: calc(0.35rem + 0.15vw);
+  margin-top: 4px;
+  margin-right: 5px;
+}
+#DoraContainer #DoraDetails p {
+  height: 10rem;
+  overflow: hidden;
+  padding-bottom: 0px !important;
+}
+#DoraContainer #DoraDetails > div > div:nth-of-type(2) {
+  position: relative;
+}
+#DoraContainer #DoraDetails > div > div:nth-of-type(2)::before {
+  height: 95px;
+}
+#DoraContainer #DoraKeyWords {
+  margin-top: 2.5rem;
+}
+#DoraContainer #DoraKeyWords > div {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+#DoraContainer #DoraKeyWords > div .chipTags {
+  margin-left: 0.5rem;
+}
+#DoraContainer #DoraLevel {
+  border: 0.1rem solid;
+  border-radius: 20px;
+  padding: 0.5rem;
+}
+#DoraContainer #DoraLevel div {
+  padding: 0.5rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.2rem;
+}
+#DoraContainer #DoraLevel div svg {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+#DoraContainer #DoraLevel h4 {
+  padding-right: 0.75rem;
+}
+#DoraContainer #DoraLevel ul {
+  padding-right: 1.4rem;
+}
+#DoraContainer #DoraContent > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.25rem;
+}
+#DoraContainer #DoraContent > div img {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.5rem;
+}
+#DoraContainer #DoraContent > div img:last-of-type {
+  margin-right: 0.5rem;
+}
+#DoraContainer #DoraContent .DoraContentAccordion {
+  margin-bottom: 1rem;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary {
+  border-radius: 12px 12px 0px 0px;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary[aria-expanded=false] {
+  border-radius: 12px;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary > div:first-of-type {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary > div:last-of-type {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary svg[data-testid=MinimizeRoundedIcon] {
+  margin-top: -1rem;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionSummary svg[data-testid=AddRoundedIcon] {
+  margin-top: 0rem;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-block: 0.5rem;
+  border-radius: 0px 0px 12px 12px;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetails div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetails > div:first-of-type img {
+  width: 25px;
+  height: 25px;
+  margin-left: 0.5rem;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetails > div:first-of-type > div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+#DoraContainer #DoraContent .DoraContentAccordion .DoraContentAccordionDetails > div:last-of-type svg {
+  margin-right: 0.5rem;
+}
+#DoraContainer #DoraInstructor div {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "instImg instName" "instImg instTitle" "instImg instSp";
+  -ms-grid-columns: 75px auto;
+  grid-template-columns: 75px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: start;
+  margin-bottom: 0.75rem;
+}
+#DoraContainer #DoraInstructor div img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: instImg;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#DoraContainer #DoraInstructor div h6 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: instName;
+}
+#DoraContainer #DoraInstructor div p {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: instTitle;
+}
+#DoraContainer #DoraInstructor div span {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: instSp;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraInstructor div span svg {
+  margin-left: 5px;
+}
+#DoraContainer #DoraInstructor a svg {
+  margin-top: 0.2em;
+}
+#DoraContainer > .DoraSatisfy {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "SatfSvg SatfHd" "SatfSvg SatfPg";
+  -ms-grid-columns: 3.5rem auto;
+  grid-template-columns: 3.5rem auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: right;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+}
+#DoraContainer > .DoraSatisfy svg {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: SatfSvg;
+  font-size: 2.4rem;
+}
+#DoraContainer > .DoraSatisfy h4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: SatfHd;
+}
+#DoraContainer > .DoraSatisfy p {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: SatfPg;
+}
+#DoraContainer #DoraCert {
+  margin-bottom: 4.5rem;
+}
+#DoraContainer #DoraCert > p {
+  margin-bottom: 1.5rem;
+}
+#DoraContainer #DoraCert > p span {
+  clear: both;
+  display: block;
+}
+#DoraContainer #DoraCert > div {
+  padding: 1.5rem 5%;
+  border-radius: 20px;
+}
+#DoraContainer #DoraCert > div > div {
+  border: 4px solid;
+  border-radius: 20px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1.5rem 5%;
+}
+#DoraContainer #DoraCert > div > div > img {
+  display: block;
+  margin: 1rem auto;
+  width: 5rem;
+}
+#DoraContainer #DoraCert > div > div p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+#DoraContainer #DoraCert > div > div > div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#DoraContainer #DoraCert > div > div > div span {
+  border-radius: 10px;
+  display: block;
+  height: 12px;
+}
+#DoraContainer #DoraCert > div > div > div > span {
+  margin-bottom: 14px;
+}
+#DoraContainer #DoraCert > div > div > div > span:nth-of-type(1) {
+  width: 95%;
+}
+#DoraContainer #DoraCert > div > div > div > span:nth-of-type(2) {
+  width: 85%;
+}
+#DoraContainer #DoraCert > div > div > div > span:nth-of-type(3) {
+  width: 70%;
+  margin-bottom: 0px !important;
+}
+#DoraContainer #DoraCert > div > div > div > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 6rem;
+  grid-template-columns: auto 6rem;
+  padding: 3rem 0rem 0rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+#DoraContainer #DoraCert > div > div > div > div > div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#DoraContainer #DoraCert > div > div > div > div > div span:nth-of-type(1) {
+  width: 20%;
+  margin-bottom: 8px !important;
+}
+#DoraContainer #DoraCert > div > div > div > div > div span:nth-of-type(2) {
+  width: 35%;
+  margin-bottom: 0px !important;
+}
+#DoraContainer #DoraCert > div > div > div > div img {
+  width: 6rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#DoraContainer #DoraFaq {
+  margin-bottom: 5rem;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion {
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary[aria-expanded=false] {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary[aria-expanded=false] .css-i4bv87-MuiSvgIcon-root {
+  margin: 0px 0px 0px 10px;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 20px 0px 0px;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+  margin: 0px 0px 4px 10px;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .DoraFaqAccordionSummary .css-yw020d-MuiAccordionSummary-expandIconWrapper.Mui-expanded svg {
+  font-size: 1.4rem;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .css-15v22id-MuiAccordionDetails-root {
+  padding-top: 0px !important;
+}
+#DoraContainer #DoraFaq .DoraFaqAccordion .css-15v22id-MuiAccordionDetails-root p {
+  padding-right: 2rem;
+}
+#DoraContainer #DoraFaq > p span {
+  margin-left: 0.25rem;
+}
+#DoraContainer #DoraOffer {
+  padding-bottom: 0.35rem;
+  border-radius: 1rem;
+}
+#DoraContainer #DoraOffer h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-block: 1.3rem;
+}
+#DoraContainer #DoraOffer h5 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 1rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer {
+  padding: 1.5rem 0rem;
+  margin: 0rem 0.35rem;
+  border-radius: 1rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 42% 58%;
+  grid-template-columns: 42% 58%;
+  margin-inline: 4%;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:first-of-type {
+  background-image: url("../public/Images/backImg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:first-of-type .chipTags {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type {
+  padding: 0.75rem 0.5rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > hr {
+  margin-block: 0.5rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:first-of-type {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "ofrImg ofrHd" "ofrImg ofrPg";
+  -ms-grid-columns: 50px auto;
+  grid-template-columns: 50px auto;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:first-of-type img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: ofrImg;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:first-of-type span {
+  font-weight: 700;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > div:last-of-type > span:first-of-type {
+  margin-left: 0.25rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > p, #DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > span {
+  position: relative;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer .DoraOfferItem > div:last-of-type > span::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: calc(2.25rem + 3vw);
+  height: 1px;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer svg.DoraOfferPlus {
+  display: block;
+  margin: 0.5rem auto;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 45% 10% 45%;
+  grid-template-columns: repeat(2, 45%);
+  -webkit-column-gap: 10%;
+     -moz-column-gap: 10%;
+          column-gap: 10%;
+  margin: 2rem 5% 0rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span > span {
+  margin-inline: 0.25rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:not(:first-of-type) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:first-of-type {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:first-of-type > span:first-of-type::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 83%;
+  height: 1px;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-inline: 4px;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div div p span {
+  display: block;
+  clear: both;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+  width: 100%;
+  clear: both;
+  margin-top: 0.5rem;
+}
+#DoraContainer #DoraOffer .DoraOfferContainer > div > div:last-of-type > div button svg {
+  margin-left: 1rem;
+}

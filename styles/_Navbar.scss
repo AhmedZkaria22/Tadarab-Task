@@ -1,0 +1,30 @@
+$color1: #333;
+$color2: white;
+$color3: #ff2600;
+header{
+    flex-direction: row!important;
+    background-color: $color2!important;
+    align-items: center!important;
+    &>div{
+        &:first-of-type{                
+            button{
+                justify-content: space-between;
+                background-color: transparent;
+                color: $color1;
+                &:hover, &:focus{                     
+                    background-color: transparent!important;
+                    color: $color1!important;
+                }
+                span{ margin: 0; }
+            }
+        }
+        &:last-of-type{
+            display: flex;
+            align-items: center;                
+            flex-direction: row;
+            border: 2px solid $color1;
+            border-radius: 0.75rem;
+            svg{ color: $color1; }
+        }
+    }
+}
