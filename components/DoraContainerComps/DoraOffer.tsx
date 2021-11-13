@@ -21,10 +21,10 @@ const DoraOffer = (props: Props) => {
                     offersData.map( (offerData, i) => {return(
                         (i !== offersData.length-1) ?
                         <>
-                            <DoraOfferItem keyndx={i} offerData={offerData}/>
+                            <DoraOfferItem key={i} offerData={offerData}/>
                             <AddRoundedIcon className='DoraOfferPlus'/>
                         </>
-                        : <DoraOfferItem keyndx={i} offerData={offerData}/>
+                        : <DoraOfferItem key={i} offerData={offerData}/>
                     )} )
                 }
             <div>

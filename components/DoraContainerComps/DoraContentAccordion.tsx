@@ -6,7 +6,7 @@ import LockOpenRoundedIcon from '@mui/icons-material/LockOpenRounded';
 import LockRoundedIcon from '@mui/icons-material/LockRounded';
 
 interface IProps {
-    keyndx: React.Key | null | undefined,
+    // keyndx: React.Key | null | undefined,
     acrListener: String,
     changeFun: Function,
     expandedListener: String | false,
@@ -17,7 +17,8 @@ interface IProps {
 }
 
 
-const DoraContentAccordion: React.FC<IProps> = ( { keyndx, acrListener, changeFun, expandedListener, acrName, acrDur, acrData, acrSvgs } ) => {
+// const DoraContentAccordion: React.FC<IProps> = ( { keyndx, acrListener, changeFun, expandedListener, acrName, acrDur, acrData, acrSvgs } ) => {
+const DoraContentAccordion: React.FC<IProps> = ( {acrListener, changeFun, expandedListener, acrName, acrDur, acrData, acrSvgs } ) => {
     const accordionListener = acrListener,
         accordionChange = changeFun,
         accordionExpanded = expandedListener,
@@ -27,7 +28,7 @@ const DoraContentAccordion: React.FC<IProps> = ( { keyndx, acrListener, changeFu
         accordionSvgs = acrSvgs;
 
     return (
-        <article className='DoraContentAccordion' key={keyndx}>
+        <article className='DoraContentAccordion'>
         <Accordion expanded={accordionExpanded === accordionListener} onChange={accordionChange(accordionListener)}>
             <AccordionSummary   expandIcon={accordionExpanded === accordionListener?<MinimizeRoundedIcon />:<AddRoundedIcon/>}     
                 aria-controls={`${accordionListener}bh-content`}

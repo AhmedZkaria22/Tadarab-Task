@@ -7,7 +7,7 @@ import { Badge } from '@mui/material';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
-const navbar = () => {
+const Navbar = () => {
   const menuRef = useRef<HTMLDivElement | undefined | any>(null);
   const menuOpRef = useRef<HTMLOrSVGElement | undefined | any>(null);
   const menuClRef = useRef<HTMLOrSVGElement | undefined | any>(null);
@@ -55,4 +55,4 @@ const navbar = () => {
   )
 }
 
-export default navbar;
+export default Navbar;

@@ -3,12 +3,12 @@ import { Chip, Divider, Rating } from '@mui/material';
 
 interface OffProps {
     offerData: String[], 
-    keyndx: React.Key | null | undefined,
+    // keyndx: React.Key | null | undefined,
 }
  
-const DoraOfferItem: React.FC<OffProps> = ( { offerData, keyndx } ) => {    
+const DoraOfferItem: React.FC<OffProps> = ( { offerData } ) => {    
     return (
-        <section className='DoraOfferItem' key={keyndx}>
+        <section className='DoraOfferItem'>
             <div><Chip label={offerData[0]} className='chipTags'/></div>
             <div>
                 <div>

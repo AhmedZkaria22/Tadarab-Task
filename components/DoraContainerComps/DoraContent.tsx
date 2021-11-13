@@ -54,9 +54,9 @@ const DoraContent = (props: Props) => {
                 <img src='/Images/Icons/time.png' />
                 <span><span>6</span> س : <span>48</span> د</span>
             </div>
-            <DoraContentAccordion keyndx={0} acrListener={"panel1"} changeFun={handleChange} expandedListener={expanded}  acrName={accordion1name}  acrDur={accordion1dur} acrData={accordionData} acrSvgs={accordionSvgs}/>
-            <DoraContentAccordion keyndx={1} acrListener={"panel2"} changeFun={handleChange} expandedListener={expanded}  acrName={accordion2name}  acrDur={accordion2dur} acrData={accordionData2} acrSvgs={accordionSvgs2}/>
-            <DoraContentAccordion keyndx={2} acrListener={"panel3"} changeFun={handleChange} expandedListener={expanded}  acrName={accordion3name}  acrDur={accordion3dur} acrData={accordionData2} acrSvgs={accordionSvgs2}/>
+            <DoraContentAccordion  acrListener={"panel1"} changeFun={handleChange} expandedListener={expanded}  acrName={accordion1name}  acrDur={accordion1dur} acrData={accordionData} acrSvgs={accordionSvgs}/>
+            <DoraContentAccordion  acrListener={"panel2"} changeFun={handleChange} expandedListener={expanded}  acrName={accordion2name}  acrDur={accordion2dur} acrData={accordionData2} acrSvgs={accordionSvgs2}/>
+            <DoraContentAccordion  acrListener={"panel3"} changeFun={handleChange} expandedListener={expanded}  acrName={accordion3name}  acrDur={accordion3dur} acrData={accordionData2} acrSvgs={accordionSvgs2}/>
         </section>
     )
 }

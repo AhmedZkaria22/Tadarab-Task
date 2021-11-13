@@ -22,6 +22,7 @@ const CommentsItem: React.FC<ComProps> = ( { commentType } ) => {
                     <p> <img src='Images/Icons/liked.png' alt='img'/> 5 </p>                    
                     <form>
                         <img src='Images/Icons/reply.png' alt='img'/>
+
                         <button> أكتب تعليق ... </button>
                     </form>
                 </div>
