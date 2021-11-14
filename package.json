@@ -3,9 +3,20 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "react-scripts build && next build",
     "start": "next start",
     "lint": "next lint"    
+  },
+  "build": {
+    "command": "react-scripts build && next build",
+    "commandOrigin": "ui",
+    "publish": "/opt/build/repo/build",
+    "publishOrigin": "ui"
+  },
+  "functionsDirectory": "/opt/build/repo/functions",
+  "plugins": {
+    "- inputs": "{}",
+    "origin": "ui",
+    "package": "@netlify/plugin-nextjs"
   },
   "dependencies": {
     "@emotion/react": "^11.5.0",
