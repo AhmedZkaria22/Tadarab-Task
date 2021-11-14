@@ -10,7 +10,7 @@ import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 const Navbar = () => {
   const menuRef = useRef<HTMLDivElement | undefined | any>(null);
   const menuOpRef = useRef<HTMLOrSVGElement | undefined | any>(null);
-  const menuClRef = useRef<HTMLOrSVGElement | undefined | any>(null);
+  const menuClRef = useRef<HTMLOrSVGElement | undefined | any>(null);  
   return (
     <AppBar>
       <img src='/Images/TadarabLg.png' alt='logo'/>

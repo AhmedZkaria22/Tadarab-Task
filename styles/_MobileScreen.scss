@@ -1,12 +1,35 @@
+@media screen and (max-width: 992px) {
+    #DoraWrapper {
+        margin: 5rem 4% 0rem !important;
+        width: 92% !important;
+        display: block !important;
+        
+        #DoraContainer{
+            margin-bottom: 2rem!important;
+        }
+        #BuyCard{
+            position: static !important;
+            inset: auto !important;
+            transform-origin: center center !important;
+            transform: scale3d(1, 1, 1) !important;
+            width: 90%!important;
+            margin: 0rem auto 7rem;    
+            padding: 1rem 2rem!important;
+        }
+    }
+}
+
 @media screen and (max-width: 560px) {
     .Home_container__1EcsU { padding: 0 1rem!important; }
 
-    .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ,.css-bp4kpt{
+    // div:has(.MuiMenu-list){
         right: 0rem!important;
-        top: 17rem!important;
+        top: 18rem!important;
         width: 100%!important;
         min-width: 100%!important;    
-        ul.css-6hp17o-MuiList-root-MuiMenu-list{
+        // ul.css-6hp17o-MuiList-root-MuiMenu-list{
+        ul.MuiMenu-list{
             background-color: #af151fc2!important;
             display: flex!important;
             flex-wrap: wrap!important;
@@ -67,7 +90,7 @@
 
         #phoneMenu{
             position: fixed;
-            top: 6rem;
+            top: 7rem;
             right: 0;
             width: 100%;
             height: fit-content;

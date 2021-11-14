@@ -41,18 +41,39 @@ a {
   direction: ltr !important;
 }
 
+@media screen and (max-width: 992px) {
+  #DoraWrapper {
+    margin: 5rem 4% 0rem !important;
+    width: 92% !important;
+    display: block !important;
+  }
+  #DoraWrapper #DoraContainer {
+    margin-bottom: 2rem !important;
+  }
+  #DoraWrapper #BuyCard {
+    position: static !important;
+    inset: auto !important;
+    -webkit-transform-origin: center center !important;
+            transform-origin: center center !important;
+    -webkit-transform: scale3d(1, 1, 1) !important;
+            transform: scale3d(1, 1, 1) !important;
+    width: 90% !important;
+    margin: 0rem auto 7rem;
+    padding: 1rem 2rem !important;
+  }
+}
 @media screen and (max-width: 560px) {
   .Home_container__1EcsU {
     padding: 0 1rem !important;
   }
 
-  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper, .css-bp4kpt {
     right: 0rem !important;
-    top: 17rem !important;
+    top: 18rem !important;
     width: 100% !important;
     min-width: 100% !important;
   }
-  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul.css-6hp17o-MuiList-root-MuiMenu-list {
+  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul.MuiMenu-list, .css-bp4kpt ul.MuiMenu-list {
     background-color: #af151fc2 !important;
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -60,7 +81,7 @@ a {
     -ms-flex-wrap: wrap !important;
         flex-wrap: wrap !important;
   }
-  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul.css-6hp17o-MuiList-root-MuiMenu-list li {
+  .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul.MuiMenu-list li, .css-bp4kpt ul.MuiMenu-list li {
     font: normal normal bold calc(0.7rem + 0.2vw)/calc(0.6rem + 0.2vw) Almarai !important;
     min-height: 2rem !important;
     margin-right: 1rem !important;
@@ -143,7 +164,7 @@ a {
   }
   #headerPhone #phoneMenu {
     position: fixed;
-    top: 6rem;
+    top: 7rem;
     right: 0;
     width: 100%;
     height: -webkit-fit-content;
@@ -515,7 +536,7 @@ hr {
   border-color: #0000001A;
 }
 
-.css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul li {
+ul.MuiMenu-list li {
   font: normal normal bold calc(0.65rem + 0.2vw)/calc(0.9rem + 0.35vw) Almarai;
   color: #0E0B1D;
 }
@@ -1218,11 +1239,6 @@ header > div:last-of-type {
 }
 header > div:last-of-type svg {
   color: #333;
-}
-
-.css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
-  left: auto;
-  right: 8rem;
 }
 
 header {
