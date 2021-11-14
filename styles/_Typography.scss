@@ -97,11 +97,11 @@ a{
 
 hr{ border-color: $Border; }
 
-// .css-edx3xz-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper ul li{
 ul.MuiMenu-list li{
     font: normal normal bold calc(0.65rem + 0.2vw)/calc(0.9rem + 0.35vw) Almarai;
     color: $color16;
 }
+
 header{
     div{
         &:first-of-type{
