@@ -15,11 +15,11 @@ interface Props {
 
 const BuyCard = (props: Props) => {
     const DoraFeats = [
-        [<AccessTimeFilledRoundedIcon />, '8 ساعات تدريبية'],
-        [<FileCopyRoundedIcon />, 'مرفقات حصرية جاهزة للتحميل'],
-        [<AllInclusiveRoundedIcon />, 'امتلاك الدورة مدى الحياة'],
-        [<DevicesRoundedIcon />, 'المشاهدة من اى موبايل او لابتوب'],
-        [<SubtitlesRoundedIcon />, 'شهادة إتمام اون لاين معتمدة']
+        [<AccessTimeFilledRoundedIcon key={0} />, '8 ساعات تدريبية'],
+        [<FileCopyRoundedIcon key={1} />, 'مرفقات حصرية جاهزة للتحميل'],
+        [<AllInclusiveRoundedIcon key={2} />, 'امتلاك الدورة مدى الحياة'],
+        [<DevicesRoundedIcon key={3} />, 'المشاهدة من اى موبايل او لابتوب'],
+        [<SubtitlesRoundedIcon key={4} />, 'شهادة إتمام اون لاين معتمدة']
     ];
 
     return (
@@ -39,8 +39,8 @@ const BuyCard = (props: Props) => {
             <Divider />
             <div>{
                 DoraFeats.map( (DoraFeat, i) => {return(
-                    // <p key={i}> {DoraFeat[0]} {DoraFeat[1]} </p>
-                    <p> {DoraFeat[0]} {DoraFeat[1]} </p>
+                    <p key={i}> {DoraFeat[0]} {DoraFeat[1]} </p>
+                    // <p> {DoraFeat[0]} {DoraFeat[1]} </p>
                 )} )
             }</div>
             <p> انضم الى <span>2 مليون متعلم</span> على منصة تدرب وتعلم مهارة جديدة يومياً </p>
