@@ -6,8 +6,7 @@
     "export": "next export",
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint",
-    "netlify": "npm run build && npm run export"
+    "lint": "next lint"
   },  
   "dependencies": {
     "@emotion/react": "^11.5.0",
