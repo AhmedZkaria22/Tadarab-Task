@@ -299,7 +299,7 @@ header{
         padding: 0.5rem 1.5rem;
         border-radius: 25px;
         position: absolute;
-        top: 0;
+        top: 2%;
         left: 10rem;
     }
     .DoraRecomandCarousel{
@@ -327,8 +327,8 @@ header{
                 width: 40px!important;
                 height: 40px!important;      
             }
-            .slick-prev{ left: 3rem!important; top: -24%!important; }
-            .slick-next{ left: 6.3rem!important; top: -31%!important; }            
+            .slick-prev{ left: 3rem!important; top: -13.5%!important; }
+            .slick-next{ left: 6.3rem!important; top: -20%!important; }            
         }
         .slick-list{
             transform: translate3d(20px, 0px, 0px);            
@@ -357,7 +357,7 @@ header{
                                     position: relative;
                                     .chipTags{
                                         position: absolute;
-                                        top: 1rem;      right: 1rem;
+                                        top: 1rem;      left: 1rem;
                                     }
                                 }
                                 &:nth-of-type(2){

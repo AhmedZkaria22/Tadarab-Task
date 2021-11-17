@@ -1702,7 +1702,7 @@ header > span span {
   padding: 0.5rem 1.5rem;
   border-radius: 25px;
   position: absolute;
-  top: 0;
+  top: 2%;
   left: 10rem;
 }
 #DoraRecomand .DoraRecomandCarousel .slick-next, #DoraRecomand .DoraRecomandCarousel .slick-prev {
@@ -1735,11 +1735,11 @@ header > span span {
   }
   #DoraRecomand .DoraRecomandCarousel .slick-prev {
     left: 3rem !important;
-    top: -24% !important;
+    top: -13.5% !important;
   }
   #DoraRecomand .DoraRecomandCarousel .slick-next {
     left: 6.3rem !important;
-    top: -31% !important;
+    top: -20% !important;
   }
 }
 #DoraRecomand .DoraRecomandCarousel .slick-list {
@@ -1791,7 +1791,7 @@ header > span span {
 #DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:first-of-type .chipTags {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  left: 1rem;
 }
 #DoraRecomand .DoraRecomandCarousel .slick-list .slick-track .slick-slide > div .DoraRecomandItem > div:nth-of-type(2) {
   display: -ms-grid;

@@ -1,5 +1,5 @@
 
-import React, { useEffect, useMemo } from 'react';
+import React from 'react';
 import { Chip, Divider } from '@mui/material';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -17,18 +17,21 @@ export interface jsDt {
     is_in_favorites: boolean; is_purchased: boolean; number_of_courses: number;
 }
  
+interface apiObjTs{
+    comments_count: Number; currency_code: String;   description: String;   
+    discounted_price: Number;  duration: Number; id: Number;  image: String;    
+    is_in_favorites: Boolean; is_purchased: Boolean; price: Number;   
+    subscribers_count: Number; title: String;   trainer: apiObjTrainTs;   type: String;  
+}
 
+interface apiObjTrainTs{
+    bio: String;    id: Number; image: String;   name_ar: String;   name_en: String;   title: String;
+}
+
+ 
 const DoraRecomandItem: React.FC<RecProps> = ( { recData, jsonData } ) => {    
-    let DB = jsonData;
-    useMemo(() => {
-        DB = jsonData;
-    }, []);      
-    useEffect(() => {
-        DB = jsonData;
-    }, [jsonData]);      
     return (
     <section className='DoraRecomandItem'>
-        
         {/* Use Json Data File (jsonData["image"]) */}
         <div style={{ backgroundImage: `url(${jsonData["image"]})` }}>
             <Chip label={recData[0]} className='chipTags'/>
