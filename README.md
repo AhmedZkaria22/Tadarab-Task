@@ -16,7 +16,7 @@
 ### Explanation
  * Use typeScript to type props in reusable component and event targets in functions
  * Reusable components : CommentsItem , DoraOverRatingItem , DoraRecomandItem , GradusProjectsItem , DoraContentAccordion , DoraFaqAccordion , DoraOfferItem , DropItem , SearchItem , DoraSatisfy
- * Fetch data from Api link and pass child id as props to DoraRecomandItem Component
+ * Fetch data from Api link and pass child id as props to DoraRecomandItemCls Component
 
 ### Color Scheme
 <p>color variables from xd design</p>
